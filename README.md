@@ -1,6 +1,9 @@
-# maven_hingin
+# maven_hingin 2025-02-07
 
-
+```diff
++ maven { url "https://gitlab.com/angcyo/maven_hingin/-/raw/main" }
++ maven { setUrl("https://gitlab.com/angcyo/maven_hingin/-/raw/main") }
+```
 
 ## Getting started
 
