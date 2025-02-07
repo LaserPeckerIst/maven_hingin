@@ -1,0 +1,117 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.angcyo",
+    "module": "bdtrace",
+    "version": "master-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.9"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.gitee.angcyo.aar",
+          "module": "BaiduTrace",
+          "version": {
+            "requires": "BaiDuTrace_3.1.7"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.24"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "bdtrace-master-SNAPSHOT.aar",
+          "url": "bdtrace-master-SNAPSHOT.aar",
+          "size": 31692,
+          "sha512": "f4e9c3f00390165f498256e9904784a2e3816c6561ae69b12eee76a1847a065414ecb981d91a2e38f43022bdd82d555e6af08be95c0421ea5cb9910ba8de0fc6",
+          "sha256": "d17cb826429bc13bb77ad1943f94aa0b8499d4285ebb4beb4db841b9e24a1290",
+          "sha1": "c5d4e68aa8a565f8d51eef99c8d3bd717014f2dd",
+          "md5": "a4e1525d52a6a617be7b27eb3dcbd9e2"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.angcyo",
+          "module": "library",
+          "version": {
+            "requires": "master-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.gitee.angcyo.aar",
+          "module": "BaiduTrace",
+          "version": {
+            "requires": "BaiDuTrace_3.1.7"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.24"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "bdtrace-master-SNAPSHOT.aar",
+          "url": "bdtrace-master-SNAPSHOT.aar",
+          "size": 31692,
+          "sha512": "f4e9c3f00390165f498256e9904784a2e3816c6561ae69b12eee76a1847a065414ecb981d91a2e38f43022bdd82d555e6af08be95c0421ea5cb9910ba8de0fc6",
+          "sha256": "d17cb826429bc13bb77ad1943f94aa0b8499d4285ebb4beb4db841b9e24a1290",
+          "sha1": "c5d4e68aa8a565f8d51eef99c8d3bd717014f2dd",
+          "md5": "a4e1525d52a6a617be7b27eb3dcbd9e2"
+        }
+      ]
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "bdtrace-master-SNAPSHOT-sources.jar",
+          "url": "bdtrace-master-SNAPSHOT-sources.jar",
+          "size": 9567,
+          "sha512": "f8a7d89693c89968c20f96add45e7b9b51d401b529796f49e2cacea1e312f6f38edd17bd852949bb9379350b469d92f200223668b81fd46d9e7c7b510a0dd34f",
+          "sha256": "530dae78b46ec25e775b3aceb8eab9b0341acca20ff0004a3a8bd84a06794f54",
+          "sha1": "bed532525eef968966202a65d6a53a195dca4d7e",
+          "md5": "3b04d975067568ce9daaebd55fedd78d"
+        }
+      ]
+    }
+  ]
+}

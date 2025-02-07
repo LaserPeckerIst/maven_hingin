@@ -1,0 +1,187 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.angcyo",
+    "module": "canvas2_lp",
+    "version": "master-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.9"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.angcyo",
+          "module": "dialog2",
+          "version": {
+            "requires": "master-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.angcyo",
+          "module": "canvas2",
+          "version": {
+            "requires": "master-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.24"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "canvas2_lp-master-SNAPSHOT.aar",
+          "url": "canvas2_lp-master-SNAPSHOT.aar",
+          "size": 5653193,
+          "sha512": "9b9ad8dcfa1eb952619541b63a2c8ee67d99265fa748cfbfc2510bc4e6439dd44ca1711cc7c4d37b0cc9d147d46dd45f6531d5279a0f35042f9540db07902fe9",
+          "sha256": "b928e297f09842a26d4d01745c11acfd2bc89581cd467abe401bfa11c6da40a2",
+          "sha1": "4363c4c0e1549d19b79b3e7c5b7523a926e46db5",
+          "md5": "4bb043b2003da630203a864c7b62a230"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.angcyo",
+          "module": "dslitem",
+          "version": {
+            "requires": "master-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.angcyo",
+          "module": "dialog",
+          "version": {
+            "requires": "master-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.angcyo",
+          "module": "engrave2",
+          "version": {
+            "requires": "master-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.angcyo",
+          "module": "component",
+          "version": {
+            "requires": "master-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.angcyo",
+          "module": "doodle",
+          "version": {
+            "requires": "master-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.angcyo",
+          "module": "crop",
+          "version": {
+            "requires": "master-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.angcyo",
+          "module": "qrcode",
+          "version": {
+            "requires": "master-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.angcyo",
+          "module": "path",
+          "version": {
+            "requires": "master-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.angcyo",
+          "module": "usbStorage",
+          "version": {
+            "requires": "master-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.angcyo",
+          "module": "dialog2",
+          "version": {
+            "requires": "master-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.angcyo",
+          "module": "canvas2",
+          "version": {
+            "requires": "master-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.24"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "canvas2_lp-master-SNAPSHOT.aar",
+          "url": "canvas2_lp-master-SNAPSHOT.aar",
+          "size": 5653193,
+          "sha512": "9b9ad8dcfa1eb952619541b63a2c8ee67d99265fa748cfbfc2510bc4e6439dd44ca1711cc7c4d37b0cc9d147d46dd45f6531d5279a0f35042f9540db07902fe9",
+          "sha256": "b928e297f09842a26d4d01745c11acfd2bc89581cd467abe401bfa11c6da40a2",
+          "sha1": "4363c4c0e1549d19b79b3e7c5b7523a926e46db5",
+          "md5": "4bb043b2003da630203a864c7b62a230"
+        }
+      ]
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "canvas2_lp-master-SNAPSHOT-sources.jar",
+          "url": "canvas2_lp-master-SNAPSHOT-sources.jar",
+          "size": 776867,
+          "sha512": "17476ba7fefeca722de8da809e6a011d7102cc47bcf5bd8d9fec7f9ff451dbf0e3775bf4b368c3641c25a5d8bdf2d2b7a33a969224e7a6364c476f6075b8e62b",
+          "sha256": "5fe69d1e3dd4aaa07393a51b4c657a03d12f4d94cbb80b0e3fd8431558630316",
+          "sha1": "952532946327a405820b1cbea8b2b7ff23097ba5",
+          "md5": "8994587e00d23c77a44084ad618d50c9"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,187 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.angcyo",
+    "module": "exoplayer",
+    "version": "master-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.9"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.media3",
+          "module": "media3-common",
+          "version": {
+            "requires": "1.0.1"
+          }
+        },
+        {
+          "group": "androidx.media3",
+          "module": "media3-exoplayer",
+          "version": {
+            "requires": "1.0.1"
+          }
+        },
+        {
+          "group": "androidx.media3",
+          "module": "media3-ui",
+          "version": {
+            "requires": "1.0.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.24"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "exoplayer-master-SNAPSHOT.aar",
+          "url": "exoplayer-master-SNAPSHOT.aar",
+          "size": 75815,
+          "sha512": "aa83a7878c9485880149da9928af18bcacdde6b5c1a0d1ecfe4b38288fc1cec3bbc034938f813732dbeef48e340f2da5fcce21bb37a2784a91fe6efd6b1489c0",
+          "sha256": "796730b56a192192ef7bac0926288248e2516b03df25c5aad5db2515ccee1cd6",
+          "sha1": "8426c477463068355209363ba2f0be7f11919b44",
+          "md5": "41a1c3480756128341b2e77547aee23f"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.angcyo",
+          "module": "library",
+          "version": {
+            "requires": "master-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.angcyo",
+          "module": "fragment",
+          "version": {
+            "requires": "master-SNAPSHOT"
+          }
+        },
+        {
+          "group": "androidx.media3",
+          "module": "media3-database",
+          "version": {
+            "requires": "1.0.1"
+          }
+        },
+        {
+          "group": "androidx.media3",
+          "module": "media3-decoder",
+          "version": {
+            "requires": "1.0.1"
+          }
+        },
+        {
+          "group": "androidx.media3",
+          "module": "media3-extractor",
+          "version": {
+            "requires": "1.0.1"
+          }
+        },
+        {
+          "group": "androidx.media3",
+          "module": "media3-datasource",
+          "version": {
+            "requires": "1.0.1"
+          }
+        },
+        {
+          "group": "androidx.media3",
+          "module": "media3-datasource-cronet",
+          "version": {
+            "requires": "1.0.1"
+          }
+        },
+        {
+          "group": "androidx.media3",
+          "module": "media3-common",
+          "version": {
+            "requires": "1.0.1"
+          }
+        },
+        {
+          "group": "androidx.media3",
+          "module": "media3-exoplayer",
+          "version": {
+            "requires": "1.0.1"
+          }
+        },
+        {
+          "group": "androidx.media3",
+          "module": "media3-ui",
+          "version": {
+            "requires": "1.0.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.24"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "exoplayer-master-SNAPSHOT.aar",
+          "url": "exoplayer-master-SNAPSHOT.aar",
+          "size": 75815,
+          "sha512": "aa83a7878c9485880149da9928af18bcacdde6b5c1a0d1ecfe4b38288fc1cec3bbc034938f813732dbeef48e340f2da5fcce21bb37a2784a91fe6efd6b1489c0",
+          "sha256": "796730b56a192192ef7bac0926288248e2516b03df25c5aad5db2515ccee1cd6",
+          "sha1": "8426c477463068355209363ba2f0be7f11919b44",
+          "md5": "41a1c3480756128341b2e77547aee23f"
+        }
+      ]
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "exoplayer-master-SNAPSHOT-sources.jar",
+          "url": "exoplayer-master-SNAPSHOT-sources.jar",
+          "size": 23601,
+          "sha512": "41d5519f2aed2fd7280f5c94c18e2935b1a5a338874cc16d18cfe45edcfc51ee760060576260c347d40be677790e8b19e524589a61e767f6df86c1ac36d93607",
+          "sha256": "27e61242ab0fbb5388a2dd702c548711716e73d6b4aff674ff6a3e1db5f507c6",
+          "sha1": "01bc7b8e904148f33e023b97e14c7cfa1a11d64a",
+          "md5": "8b86583dd05477239eaffad9a6451fce"
+        }
+      ]
+    }
+  ]
+}

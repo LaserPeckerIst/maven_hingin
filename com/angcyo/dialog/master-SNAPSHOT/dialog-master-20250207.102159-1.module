@@ -1,0 +1,145 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.angcyo",
+    "module": "dialog",
+    "version": "master-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.9"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.github.LaserPeckerIst",
+          "module": "ColorPickerView",
+          "version": {
+            "requires": "2.2.4.5"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.24"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "dialog-master-SNAPSHOT.aar",
+          "url": "dialog-master-SNAPSHOT.aar",
+          "size": 479077,
+          "sha512": "d910c369e7e029c1af69b726ef1d142040370d230896f7477004936e3866fac6afd8b0e36b31de2850bc8d88e0385dc6ecca82fe236233ab766d34af4eedb93a",
+          "sha256": "e85dc55e93aacedb4dd0600efae9a9c505d289bb4f9d54f659829dbd6ab9ff71",
+          "sha1": "b43f538ef3817e20d970be74cefbd4ea02244157",
+          "md5": "84043b7b56573d75ff3d283486eb8bb3"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.angcyo",
+          "module": "library",
+          "version": {
+            "requires": "master-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.angcyo",
+          "module": "widget",
+          "version": {
+            "requires": "master-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.angcyo",
+          "module": "transition",
+          "version": {
+            "requires": "master-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.angcyo",
+          "module": "fragment",
+          "version": {
+            "requires": "master-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.angcyo",
+          "module": "viewmodel",
+          "version": {
+            "requires": "master-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.github.LaserPeckerIst",
+          "module": "ColorPickerView",
+          "version": {
+            "requires": "2.2.4.5"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.24"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "dialog-master-SNAPSHOT.aar",
+          "url": "dialog-master-SNAPSHOT.aar",
+          "size": 479077,
+          "sha512": "d910c369e7e029c1af69b726ef1d142040370d230896f7477004936e3866fac6afd8b0e36b31de2850bc8d88e0385dc6ecca82fe236233ab766d34af4eedb93a",
+          "sha256": "e85dc55e93aacedb4dd0600efae9a9c505d289bb4f9d54f659829dbd6ab9ff71",
+          "sha1": "b43f538ef3817e20d970be74cefbd4ea02244157",
+          "md5": "84043b7b56573d75ff3d283486eb8bb3"
+        }
+      ]
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "dialog-master-SNAPSHOT-sources.jar",
+          "url": "dialog-master-SNAPSHOT-sources.jar",
+          "size": 139977,
+          "sha512": "def3f550084c2ab1b4857baae06231369a34b7ca83944415fccbf1677d1c9f7e8198f5fecbab9ac0bcc14b8fcd055d2537aae07c6c5fb29732ab38f8c14c5eee",
+          "sha256": "57a2e6a44703f6b148b32aa1544284c6437a7ea829d5865d27451f1b0b914990",
+          "sha1": "e43c726053a8222bbe12ea53535766964eb820fd",
+          "md5": "113cde65fefca26dc45b60de3300e422"
+        }
+      ]
+    }
+  ]
+}

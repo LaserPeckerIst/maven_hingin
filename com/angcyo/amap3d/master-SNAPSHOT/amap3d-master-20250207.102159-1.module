@@ -1,0 +1,152 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.angcyo",
+    "module": "amap3d",
+    "version": "master-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.9"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.amap.api",
+          "module": "3dmap",
+          "version": {
+            "requires": "7.7.0"
+          }
+        },
+        {
+          "group": "com.amap.api",
+          "module": "search",
+          "version": {
+            "requires": "7.7.0"
+          }
+        },
+        {
+          "group": "com.amap.api",
+          "module": "location",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.24"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "amap3d-master-SNAPSHOT.aar",
+          "url": "amap3d-master-SNAPSHOT.aar",
+          "size": 345970,
+          "sha512": "0427ea2af60ec837f11a07d813cdbb643e0f0df989c58fe5bc6d6503f1eb67f797bf6484cb14c1b4f7c9fcefce0423f13770cb1e293503f1572e215260773af6",
+          "sha256": "06530ba8e40773c9537bff4aba3756b6e84f4b0cf52c15ab08fd3f4240bc44ce",
+          "sha1": "c1b8f284998309a275f58e1fb04849b87c2c1880",
+          "md5": "26ce7ec6aba795e935893d62f786bb06"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.angcyo",
+          "module": "core",
+          "version": {
+            "requires": "master-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.angcyo",
+          "module": "dslitem",
+          "version": {
+            "requires": "master-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.amap.api",
+          "module": "3dmap",
+          "version": {
+            "requires": "7.7.0"
+          }
+        },
+        {
+          "group": "com.amap.api",
+          "module": "search",
+          "version": {
+            "requires": "7.7.0"
+          }
+        },
+        {
+          "group": "com.amap.api",
+          "module": "location",
+          "version": {
+            "requires": "5.2.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.24"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "amap3d-master-SNAPSHOT.aar",
+          "url": "amap3d-master-SNAPSHOT.aar",
+          "size": 345970,
+          "sha512": "0427ea2af60ec837f11a07d813cdbb643e0f0df989c58fe5bc6d6503f1eb67f797bf6484cb14c1b4f7c9fcefce0423f13770cb1e293503f1572e215260773af6",
+          "sha256": "06530ba8e40773c9537bff4aba3756b6e84f4b0cf52c15ab08fd3f4240bc44ce",
+          "sha1": "c1b8f284998309a275f58e1fb04849b87c2c1880",
+          "md5": "26ce7ec6aba795e935893d62f786bb06"
+        }
+      ]
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "amap3d-master-SNAPSHOT-sources.jar",
+          "url": "amap3d-master-SNAPSHOT-sources.jar",
+          "size": 77215,
+          "sha512": "6f8422913cbdc14a4cf7bcc8f9ebda3a922b323a40eb0019f3afda8796987587061c7decba70470997753b5aa065fdd1f1c8344cfc6493f69b6847c520ab7264",
+          "sha256": "a710158d06009027cfa4ac3920974c43e28c657bc28ce364274344b0ed490b89",
+          "sha1": "acbc57713cc420ac3003dde901b11f71bb1503d1",
+          "md5": "4cfab6aead59cf8c17bdc37ecee147b7"
+        }
+      ]
+    }
+  ]
+}

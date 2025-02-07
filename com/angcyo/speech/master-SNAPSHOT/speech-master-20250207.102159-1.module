@@ -1,0 +1,117 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.angcyo",
+    "module": "speech",
+    "version": "master-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.9"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.gitee.angcyo.aar",
+          "module": "QQTTS",
+          "version": {
+            "requires": "qcloudtts_1.3.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.24"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "speech-master-SNAPSHOT.aar",
+          "url": "speech-master-SNAPSHOT.aar",
+          "size": 21546,
+          "sha512": "6dcd5a431273dc80c2eff70ec15fd22ce800c80efff446434e9dc1aaef65bec6ce3c2acd64d56ffc53ce468beada7ebcb7c3b4030e6afc41916d59388d098243",
+          "sha256": "7badf04e3ed893d8dc9bd3ebcdebeff30f68c7d3b034bb20a23d081fd002dd96",
+          "sha1": "b9f866c6aff5ffcddf7af1dcafd088d0c23da6ab",
+          "md5": "221ae27cadefac87e43e7fbfc5896b58"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.angcyo",
+          "module": "library",
+          "version": {
+            "requires": "master-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.gitee.angcyo.aar",
+          "module": "QQTTS",
+          "version": {
+            "requires": "qcloudtts_1.3.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.24"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "speech-master-SNAPSHOT.aar",
+          "url": "speech-master-SNAPSHOT.aar",
+          "size": 21546,
+          "sha512": "6dcd5a431273dc80c2eff70ec15fd22ce800c80efff446434e9dc1aaef65bec6ce3c2acd64d56ffc53ce468beada7ebcb7c3b4030e6afc41916d59388d098243",
+          "sha256": "7badf04e3ed893d8dc9bd3ebcdebeff30f68c7d3b034bb20a23d081fd002dd96",
+          "sha1": "b9f866c6aff5ffcddf7af1dcafd088d0c23da6ab",
+          "md5": "221ae27cadefac87e43e7fbfc5896b58"
+        }
+      ]
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "speech-master-SNAPSHOT-sources.jar",
+          "url": "speech-master-SNAPSHOT-sources.jar",
+          "size": 5045,
+          "sha512": "0f95343a89868e00631f8c20e48fbb5e67a88673e029668a1c913ba5a76166b07253f89e29ba98b2e635b364570647ed32c3206d3c2705992fde62f94046984d",
+          "sha256": "66b6d748037bcfb773944a173fc521bc35727780525fe03c7bcf3b3e4a81e6e1",
+          "sha1": "bf1a56131ae13cc81481d145e09cb7e650835d04",
+          "md5": "ba90cc845d00e87067065cf922854279"
+        }
+      ]
+    }
+  ]
+}

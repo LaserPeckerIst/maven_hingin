@@ -1,0 +1,138 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.angcyo",
+    "module": "jpush",
+    "version": "master-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.9"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "cn.jiguang.sdk",
+          "module": "jpush",
+          "version": {
+            "requires": "4.6.0"
+          }
+        },
+        {
+          "group": "cn.jiguang.sdk",
+          "module": "jcore",
+          "version": {
+            "requires": "3.1.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.24"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "jpush-master-SNAPSHOT.aar",
+          "url": "jpush-master-SNAPSHOT.aar",
+          "size": 54737,
+          "sha512": "a19c5b75fe690c0848f0cf6b50be4cfb5032a6d5767c6041287f6530cd5747595a4f7d133cecc612a7041ef5cb73fe12f2fe1f41daab07bc7424b6b7558a4545",
+          "sha256": "8ce4c20ae3a0970f146f40fda88c8550e6986b6b22d5a45bc0cf3487705f2bd2",
+          "sha1": "33f08b26007f4e183cb4d5473949dbd94301f333",
+          "md5": "d23caf22fa0ba921536e111ff73c8f5b"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.angcyo",
+          "module": "library",
+          "version": {
+            "requires": "master-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.angcyo",
+          "module": "core",
+          "version": {
+            "requires": "master-SNAPSHOT"
+          }
+        },
+        {
+          "group": "cn.jiguang.sdk",
+          "module": "jpush",
+          "version": {
+            "requires": "4.6.0"
+          }
+        },
+        {
+          "group": "cn.jiguang.sdk",
+          "module": "jcore",
+          "version": {
+            "requires": "3.1.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.24"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "jpush-master-SNAPSHOT.aar",
+          "url": "jpush-master-SNAPSHOT.aar",
+          "size": 54737,
+          "sha512": "a19c5b75fe690c0848f0cf6b50be4cfb5032a6d5767c6041287f6530cd5747595a4f7d133cecc612a7041ef5cb73fe12f2fe1f41daab07bc7424b6b7558a4545",
+          "sha256": "8ce4c20ae3a0970f146f40fda88c8550e6986b6b22d5a45bc0cf3487705f2bd2",
+          "sha1": "33f08b26007f4e183cb4d5473949dbd94301f333",
+          "md5": "d23caf22fa0ba921536e111ff73c8f5b"
+        }
+      ]
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "jpush-master-SNAPSHOT-sources.jar",
+          "url": "jpush-master-SNAPSHOT-sources.jar",
+          "size": 9955,
+          "sha512": "7745a7517576725b435f07f067f30116c22d2f3253639a2bf3d38af06f89c484899e3e05c9ca2a19dd87fe0ebe7d52a45022907a727d238e52a1afec551725a9",
+          "sha256": "e1e5c03c1c835877a946984d97676a93f2f4c63e751332bfbed9f8235beb4e90",
+          "sha1": "248cbeb1b76168886f681189b7f0f24bb82a6f49",
+          "md5": "d3e9979b69aabb713af170c22bb592a7"
+        }
+      ]
+    }
+  ]
+}

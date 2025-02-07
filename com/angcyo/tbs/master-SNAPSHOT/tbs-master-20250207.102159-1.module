@@ -1,0 +1,173 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.angcyo",
+    "module": "tbs",
+    "version": "master-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.9"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.tencent.tbs",
+          "module": "tbssdk",
+          "version": {
+            "requires": "44286"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.24"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "tbs-master-SNAPSHOT.aar",
+          "url": "tbs-master-SNAPSHOT.aar",
+          "size": 184059,
+          "sha512": "5cb6eb77482503ef68dbdadb17ab60e82e3fd580c4b9fa0e6d369ed89aa124b6876463c52ab055865884ecc2912a8a300417efc9d5f8442b0fc8b9fe47254a66",
+          "sha256": "a67a11a9274d60b5033598d1d104229c46770f133f7aa2c2b666c2f03ca49b68",
+          "sha1": "0170c7ea6776434b97506abe25c61bed66a33d36",
+          "md5": "6f6f12d4375c01c8f28ad954834cc90c"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-parcelize-runtime",
+          "version": {
+            "requires": "1.9.24"
+          }
+        },
+        {
+          "group": "com.angcyo",
+          "module": "library",
+          "version": {
+            "requires": "master-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.angcyo",
+          "module": "core",
+          "version": {
+            "requires": "master-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.angcyo",
+          "module": "download",
+          "version": {
+            "requires": "master-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.angcyo",
+          "module": "media",
+          "version": {
+            "requires": "master-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.angcyo",
+          "module": "image",
+          "version": {
+            "requires": "master-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.angcyo",
+          "module": "http",
+          "version": {
+            "requires": "master-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.angcyo",
+          "module": "picker",
+          "version": {
+            "requires": "master-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.angcyo",
+          "module": "web",
+          "version": {
+            "requires": "master-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.tencent.tbs",
+          "module": "tbssdk",
+          "version": {
+            "requires": "44286"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.24"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "tbs-master-SNAPSHOT.aar",
+          "url": "tbs-master-SNAPSHOT.aar",
+          "size": 184059,
+          "sha512": "5cb6eb77482503ef68dbdadb17ab60e82e3fd580c4b9fa0e6d369ed89aa124b6876463c52ab055865884ecc2912a8a300417efc9d5f8442b0fc8b9fe47254a66",
+          "sha256": "a67a11a9274d60b5033598d1d104229c46770f133f7aa2c2b666c2f03ca49b68",
+          "sha1": "0170c7ea6776434b97506abe25c61bed66a33d36",
+          "md5": "6f6f12d4375c01c8f28ad954834cc90c"
+        }
+      ]
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "tbs-master-SNAPSHOT-sources.jar",
+          "url": "tbs-master-SNAPSHOT-sources.jar",
+          "size": 69605,
+          "sha512": "da3643221e37da62cdfe2b7651c80d7fffb5fa3e2153b0f653fc1a661be0f8d25a89f808c6a8d223916c2f81f30172b43ef0a8aad46d8ddd5255afb512307246",
+          "sha256": "63fc89cec0a3b6b42012bc05ea72905a2ad6852fb9182aabe17eed6253336740",
+          "sha1": "b0c7690331615d869a529f5b8f3f8ec6765cf130",
+          "md5": "e85cf7d2dc735c9c12aae029a4d4c287"
+        }
+      ]
+    }
+  ]
+}

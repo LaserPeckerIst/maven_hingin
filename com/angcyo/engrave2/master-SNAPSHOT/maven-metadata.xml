@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>com.angcyo</groupId>
+  <artifactId>engrave2</artifactId>
+  <versioning>
+    <lastUpdated>20250207102159</lastUpdated>
+    <snapshot>
+      <timestamp>20250207.102159</timestamp>
+      <buildNumber>1</buildNumber>
+    </snapshot>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>module</extension>
+        <value>master-20250207.102159-1</value>
+        <updated>20250207102159</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>aar</extension>
+        <value>master-20250207.102159-1</value>
+        <updated>20250207102159</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <classifier>sources</classifier>
+        <extension>jar</extension>
+        <value>master-20250207.102159-1</value>
+        <updated>20250207102159</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>master-20250207.102159-1</value>
+        <updated>20250207102159</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+  <version>master-SNAPSHOT</version>
+</metadata>

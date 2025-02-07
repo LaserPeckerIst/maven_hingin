@@ -1,0 +1,117 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.angcyo",
+    "module": "aliyun_oss",
+    "version": "master-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.9"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.aliyun.dpa",
+          "module": "oss-android-sdk",
+          "version": {
+            "requires": "2.9.5"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.24"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "aliyun_oss-master-SNAPSHOT.aar",
+          "url": "aliyun_oss-master-SNAPSHOT.aar",
+          "size": 27405,
+          "sha512": "46b0fe20ac7b986e451dd3db9aa5e1beb61d0eee2efe1fd31c980992e489a9112c30e95e12a412c79813cd6bb1662f9e32f36fac7a47da93a42bddd4740d7179",
+          "sha256": "8097ffc6523f43f565d14b97d538b4c2b6a20fc50675bc9196b68da7510848bc",
+          "sha1": "55c6ac79d44274399a1f6d7ae0ffb2afc7901ad8",
+          "md5": "862eec858cf92dd5d5743bf7ce2ee8c7"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.angcyo",
+          "module": "library",
+          "version": {
+            "requires": "master-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.aliyun.dpa",
+          "module": "oss-android-sdk",
+          "version": {
+            "requires": "2.9.5"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.24"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "aliyun_oss-master-SNAPSHOT.aar",
+          "url": "aliyun_oss-master-SNAPSHOT.aar",
+          "size": 27405,
+          "sha512": "46b0fe20ac7b986e451dd3db9aa5e1beb61d0eee2efe1fd31c980992e489a9112c30e95e12a412c79813cd6bb1662f9e32f36fac7a47da93a42bddd4740d7179",
+          "sha256": "8097ffc6523f43f565d14b97d538b4c2b6a20fc50675bc9196b68da7510848bc",
+          "sha1": "55c6ac79d44274399a1f6d7ae0ffb2afc7901ad8",
+          "md5": "862eec858cf92dd5d5743bf7ce2ee8c7"
+        }
+      ]
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "aliyun_oss-master-SNAPSHOT-sources.jar",
+          "url": "aliyun_oss-master-SNAPSHOT-sources.jar",
+          "size": 5903,
+          "sha512": "c2febf6efa8014bbfa040645e9d0d303fcdf2be7c5fec459c1bf1398e475c4af2eddfb607ee98e7d55d5beda879b98d85ff3ad83e8cbce75b2369ad0731cebb5",
+          "sha256": "558c54b5001e85cb057b695395bc06d3948d48db41095c22602f2493911bf4ea",
+          "sha1": "8dbd434c0ec9a9355ac23c72445ad2ee1b211349",
+          "md5": "b38b7bd27a355af99547f6c316211326"
+        }
+      ]
+    }
+  ]
+}

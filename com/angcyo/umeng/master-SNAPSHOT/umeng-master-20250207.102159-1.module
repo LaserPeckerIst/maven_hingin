@@ -1,0 +1,131 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.angcyo",
+    "module": "umeng",
+    "version": "master-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.9"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.umeng.umsdk",
+          "module": "common",
+          "version": {
+            "requires": "9.7.7"
+          }
+        },
+        {
+          "group": "com.umeng.umsdk",
+          "module": "asms",
+          "version": {
+            "requires": "1.8.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.24"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "umeng-master-SNAPSHOT.aar",
+          "url": "umeng-master-SNAPSHOT.aar",
+          "size": 21230,
+          "sha512": "be3faf08d1f819eaa6861aaf52bd16fa937f14c266189839e8900f06118212b7ad3eae43e078a4f6c94166688e9c563381982baba02fbcf37c499e3971ce2f59",
+          "sha256": "29c7d1adf0e41f94c094fa6b2fadddf1eb599354822bc82a1d2f7c01eb7ae83c",
+          "sha1": "cf0e2a826556dcee6381b3ad24ff6a532c3caa95",
+          "md5": "d71fe8b19fb62a41d19aa361f6135e39"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.angcyo",
+          "module": "library",
+          "version": {
+            "requires": "master-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.umeng.umsdk",
+          "module": "common",
+          "version": {
+            "requires": "9.7.7"
+          }
+        },
+        {
+          "group": "com.umeng.umsdk",
+          "module": "asms",
+          "version": {
+            "requires": "1.8.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.24"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "umeng-master-SNAPSHOT.aar",
+          "url": "umeng-master-SNAPSHOT.aar",
+          "size": 21230,
+          "sha512": "be3faf08d1f819eaa6861aaf52bd16fa937f14c266189839e8900f06118212b7ad3eae43e078a4f6c94166688e9c563381982baba02fbcf37c499e3971ce2f59",
+          "sha256": "29c7d1adf0e41f94c094fa6b2fadddf1eb599354822bc82a1d2f7c01eb7ae83c",
+          "sha1": "cf0e2a826556dcee6381b3ad24ff6a532c3caa95",
+          "md5": "d71fe8b19fb62a41d19aa361f6135e39"
+        }
+      ]
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "umeng-master-SNAPSHOT-sources.jar",
+          "url": "umeng-master-SNAPSHOT-sources.jar",
+          "size": 6767,
+          "sha512": "2f4033df7b2588b6a524c3f61963b6bda516d83c7419cccf4a58d450a02d47d35ff44faa078e6d31ea6c10a999eac547021f2fe86ff10796e70e5270f11f64c3",
+          "sha256": "c5d4eb22ceaa8a53caed8fb3ead316f8500ba89c2a2474b8a8a93a6856045ac9",
+          "sha1": "5ee72671ca42e0f7e4c7a3049166c8d84ed9a050",
+          "md5": "72074071d63a7e7e1b3da86867c8b13e"
+        }
+      ]
+    }
+  ]
+}

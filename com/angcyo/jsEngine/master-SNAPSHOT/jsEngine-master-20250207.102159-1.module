@@ -1,0 +1,117 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.angcyo",
+    "module": "jsEngine",
+    "version": "master-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.9"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.javascriptengine",
+          "module": "javascriptengine",
+          "version": {
+            "requires": "1.0.0-alpha05"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.24"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "jsEngine-master-SNAPSHOT.aar",
+          "url": "jsEngine-master-SNAPSHOT.aar",
+          "size": 15428,
+          "sha512": "55585d8ed32c293af0cfb4ed3bf80d4db85d90a693071331123b0573e59476be75b0576fe627a499849c924e2ea2120794019cc67b14cd92f0c538dfe348814a",
+          "sha256": "b434be80de2950deea0abc08ae494e209a8de767e0bc9da29975ac907fdaf433",
+          "sha1": "4a3815bcad3a4d190c5ccf0b4322be1196765704",
+          "md5": "352bbd955678e6ec89f79c73d3f0fe4d"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.angcyo",
+          "module": "library",
+          "version": {
+            "requires": "master-SNAPSHOT"
+          }
+        },
+        {
+          "group": "androidx.javascriptengine",
+          "module": "javascriptengine",
+          "version": {
+            "requires": "1.0.0-alpha05"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.24"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "jsEngine-master-SNAPSHOT.aar",
+          "url": "jsEngine-master-SNAPSHOT.aar",
+          "size": 15428,
+          "sha512": "55585d8ed32c293af0cfb4ed3bf80d4db85d90a693071331123b0573e59476be75b0576fe627a499849c924e2ea2120794019cc67b14cd92f0c538dfe348814a",
+          "sha256": "b434be80de2950deea0abc08ae494e209a8de767e0bc9da29975ac907fdaf433",
+          "sha1": "4a3815bcad3a4d190c5ccf0b4322be1196765704",
+          "md5": "352bbd955678e6ec89f79c73d3f0fe4d"
+        }
+      ]
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "jsEngine-master-SNAPSHOT-sources.jar",
+          "url": "jsEngine-master-SNAPSHOT-sources.jar",
+          "size": 1553,
+          "sha512": "5f966e0857b1cd87d8495b84ef6bce86ac432e7d8227095857ac8b609640e22249e975839ba0f7b979af148972107d3cbb6507bea8ae4048c9199471e8d81342",
+          "sha256": "69a9dcaffc009fab14de9f072e1b830df3b89aa60f8e545bf3f7fdd98ded9ccc",
+          "sha1": "d49cd85fc25c4bfaabd0e9c2897b3de959cbd8f5",
+          "md5": "d47e9fe106e47522e9de3390d0f700b3"
+        }
+      ]
+    }
+  ]
+}

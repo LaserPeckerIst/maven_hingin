@@ -1,0 +1,180 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.angcyo",
+    "module": "acc2app",
+    "version": "master-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.9"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.angcyo",
+          "module": "core",
+          "version": {
+            "requires": "master-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.angcyo",
+          "module": "acc2",
+          "version": {
+            "requires": "master-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.angcyo",
+          "module": "dslitem",
+          "version": {
+            "requires": "master-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.angcyo",
+          "module": "download",
+          "version": {
+            "requires": "master-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.angcyo",
+          "module": "andserver",
+          "version": {
+            "requires": "master-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.angcyo",
+          "module": "dialog2",
+          "version": {
+            "requires": "master-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.24"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "acc2app-master-SNAPSHOT.aar",
+          "url": "acc2app-master-SNAPSHOT.aar",
+          "size": 553211,
+          "sha512": "82ae0f23510d83a64af979bb364ed4344d5f822b385e13082e55282360947724f63dea686088a562b3831b877f827fec3f692c6326f9ce690211b1e4a487fca6",
+          "sha256": "42f45fda36f66d7aadbd6728f312aa91ff8a68e6eac635a46351cd4b5b8748cd",
+          "sha1": "ddb9438bddcbe5f0fe3f042abbe182539ad58a03",
+          "md5": "6273d49084f6411fb06491471c6f8a47"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.angcyo",
+          "module": "core",
+          "version": {
+            "requires": "master-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.angcyo",
+          "module": "acc2",
+          "version": {
+            "requires": "master-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.angcyo",
+          "module": "dslitem",
+          "version": {
+            "requires": "master-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.angcyo",
+          "module": "download",
+          "version": {
+            "requires": "master-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.angcyo",
+          "module": "andserver",
+          "version": {
+            "requires": "master-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.angcyo",
+          "module": "dialog2",
+          "version": {
+            "requires": "master-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.24"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "acc2app-master-SNAPSHOT.aar",
+          "url": "acc2app-master-SNAPSHOT.aar",
+          "size": 553211,
+          "sha512": "82ae0f23510d83a64af979bb364ed4344d5f822b385e13082e55282360947724f63dea686088a562b3831b877f827fec3f692c6326f9ce690211b1e4a487fca6",
+          "sha256": "42f45fda36f66d7aadbd6728f312aa91ff8a68e6eac635a46351cd4b5b8748cd",
+          "sha1": "ddb9438bddcbe5f0fe3f042abbe182539ad58a03",
+          "md5": "6273d49084f6411fb06491471c6f8a47"
+        }
+      ]
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "acc2app-master-SNAPSHOT-sources.jar",
+          "url": "acc2app-master-SNAPSHOT-sources.jar",
+          "size": 134239,
+          "sha512": "ed43bf1dc1b46dedf343d02345f5ef75d568b488961e2e19c1b02de3b4085db1e6a62fbe80c170dfc0f91e616968f1e72bed3c21d4e07d97a1ba0178fffd7a3b",
+          "sha256": "19b5a79744da7c6796738a567ee9764e965d3644affe2414e765b4672cd3d89f",
+          "sha1": "ef77f35779cf7be379f80c4658d80c310d08d1bd",
+          "md5": "f1911c948e2de78bb988768ba2e3316b"
+        }
+      ]
+    }
+  ]
+}

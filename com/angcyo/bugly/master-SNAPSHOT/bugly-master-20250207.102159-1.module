@@ -1,0 +1,131 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.angcyo",
+    "module": "bugly",
+    "version": "master-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.9"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.tencent.bugly",
+          "module": "crashreport",
+          "version": {
+            "requires": "4.0.4"
+          }
+        },
+        {
+          "group": "com.tencent.bugly",
+          "module": "nativecrashreport",
+          "version": {
+            "requires": "3.9.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.24"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "bugly-master-SNAPSHOT.aar",
+          "url": "bugly-master-SNAPSHOT.aar",
+          "size": 18230,
+          "sha512": "9b3158b43c524f52b7bf9901cd2b33c717504743bb0b76fd083bcfa923c7c9fdfead52b48fb932fc0033c45c1d9f2171580e43d7fef45c801297829b98bc2a1e",
+          "sha256": "e1cacd718dbecc95bb33ffff3ced1cc2ed848b7881c7f8d363b036d341145113",
+          "sha1": "31b9613c07488e2aa7faf10bc52b5eec464922c6",
+          "md5": "9062c4f872318d754f7113affd04c4f1"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.angcyo",
+          "module": "library",
+          "version": {
+            "requires": "master-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.tencent.bugly",
+          "module": "crashreport",
+          "version": {
+            "requires": "4.0.4"
+          }
+        },
+        {
+          "group": "com.tencent.bugly",
+          "module": "nativecrashreport",
+          "version": {
+            "requires": "3.9.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.24"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "bugly-master-SNAPSHOT.aar",
+          "url": "bugly-master-SNAPSHOT.aar",
+          "size": 18230,
+          "sha512": "9b3158b43c524f52b7bf9901cd2b33c717504743bb0b76fd083bcfa923c7c9fdfead52b48fb932fc0033c45c1d9f2171580e43d7fef45c801297829b98bc2a1e",
+          "sha256": "e1cacd718dbecc95bb33ffff3ced1cc2ed848b7881c7f8d363b036d341145113",
+          "sha1": "31b9613c07488e2aa7faf10bc52b5eec464922c6",
+          "md5": "9062c4f872318d754f7113affd04c4f1"
+        }
+      ]
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "bugly-master-SNAPSHOT-sources.jar",
+          "url": "bugly-master-SNAPSHOT-sources.jar",
+          "size": 2977,
+          "sha512": "7268e62428b88eab470a3b341fc813aef48eaa5d8130afec8462697ade06fe393d750ff0609df56fa09899876c80bf5a9d0149fa00f09eee949f1babd2a537a8",
+          "sha256": "9201dc7105ae6d67d388418d003b4f39db834536b47b0759959b9fdcf4e30364",
+          "sha1": "be0d81b20af77e05d996d4873a56fb9e4547fbb7",
+          "md5": "fc7c8dba229dfbf915241b6a50b9fd66"
+        }
+      ]
+    }
+  ]
+}

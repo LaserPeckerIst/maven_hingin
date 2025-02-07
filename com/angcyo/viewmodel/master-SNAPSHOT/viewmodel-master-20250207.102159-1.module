@@ -1,0 +1,145 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.angcyo",
+    "module": "viewmodel",
+    "version": "master-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.9"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-viewmodel-ktx",
+          "version": {
+            "requires": "2.6.1"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-livedata-ktx",
+          "version": {
+            "requires": "2.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.24"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "viewmodel-master-SNAPSHOT.aar",
+          "url": "viewmodel-master-SNAPSHOT.aar",
+          "size": 43207,
+          "sha512": "bc7effab623025a3a6536b324d6200e7884b2d75f0ab12f1c1232862043c38cd1ded6d356bacec671504ee2792c7b3f55db862abe6d5c24b2d096ee0759d6b18",
+          "sha256": "49888b4ab6ff01a4a209c8c63f0f5f0e666075761aa608f7832163f4ccf47d81",
+          "sha1": "2b896a6c703f037cc65d9faa06d13d51ea1548bb",
+          "md5": "cdd5882df6454932d9b7d8122e1ab921"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.angcyo",
+          "module": "library",
+          "version": {
+            "requires": "master-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.angcyo",
+          "module": "coroutine",
+          "version": {
+            "requires": "master-SNAPSHOT"
+          }
+        },
+        {
+          "group": "androidx.fragment",
+          "module": "fragment-ktx",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-viewmodel-ktx",
+          "version": {
+            "requires": "2.6.1"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-livedata-ktx",
+          "version": {
+            "requires": "2.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.24"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "viewmodel-master-SNAPSHOT.aar",
+          "url": "viewmodel-master-SNAPSHOT.aar",
+          "size": 43207,
+          "sha512": "bc7effab623025a3a6536b324d6200e7884b2d75f0ab12f1c1232862043c38cd1ded6d356bacec671504ee2792c7b3f55db862abe6d5c24b2d096ee0759d6b18",
+          "sha256": "49888b4ab6ff01a4a209c8c63f0f5f0e666075761aa608f7832163f4ccf47d81",
+          "sha1": "2b896a6c703f037cc65d9faa06d13d51ea1548bb",
+          "md5": "cdd5882df6454932d9b7d8122e1ab921"
+        }
+      ]
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "viewmodel-master-SNAPSHOT-sources.jar",
+          "url": "viewmodel-master-SNAPSHOT-sources.jar",
+          "size": 18557,
+          "sha512": "4faf9420fdb038a0594fb2459169acfbe2a0c2b43602b81ecfb953b0645e75f0643d7619ca0f9a9168898acd9ea1a3debfb27de8c2ea3bc288e51fc22730d55d",
+          "sha256": "9539fdec88371f5a19a9ac9257100965ddf275f616d5fdf54479640363325a88",
+          "sha1": "f39b96bf6cc498893b7df7fac18aae8de5f7c9df",
+          "md5": "de4dd662a199145a0465606646dbe344"
+        }
+      ]
+    }
+  ]
+}
