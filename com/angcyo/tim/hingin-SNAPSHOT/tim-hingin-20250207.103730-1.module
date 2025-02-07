@@ -1,0 +1,250 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.angcyo",
+    "module": "tim",
+    "version": "hingin-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.9"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.tencent.imsdk",
+          "module": "imsdk-plus",
+          "version": {
+            "requires": "5.9.1872"
+          }
+        },
+        {
+          "group": "com.tencent.tpns",
+          "module": "xiaomi",
+          "version": {
+            "requires": "1.2.9.2-release"
+          }
+        },
+        {
+          "group": "com.tencent.tpns",
+          "module": "meizu",
+          "version": {
+            "requires": "1.2.9.2-release"
+          }
+        },
+        {
+          "group": "com.tencent.tpns",
+          "module": "oppo",
+          "version": {
+            "requires": "1.2.9.2-release"
+          }
+        },
+        {
+          "group": "com.tencent.tpns",
+          "module": "vivo",
+          "version": {
+            "requires": "1.2.9.2-release"
+          }
+        },
+        {
+          "group": "com.tencent.tpns",
+          "module": "huawei",
+          "version": {
+            "requires": "1.2.9.2-release"
+          }
+        },
+        {
+          "group": "com.huawei.hms",
+          "module": "push",
+          "version": {
+            "requires": "6.3.0.300"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.24"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "tim-hingin-SNAPSHOT.aar",
+          "url": "tim-hingin-SNAPSHOT.aar",
+          "size": 818858,
+          "sha512": "6acc0d5c47f78b715ee629fdff670b3c0f5b5bad7c7636b352b9fc4c3697e79358538f04310bee8100d971754f75ab9164f6c90f62e2e36a3a0770dcc0aa72fb",
+          "sha256": "12f88ca97d9426be0b1d860744a40fe16396dc5989f85b27c7881b3cf58d8da6",
+          "sha1": "c2ec0e460f6374c4a6bc2bb4b93d1b680d8012c4",
+          "md5": "bb4a0751b53eae7d697d0512b3302b2a"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.angcyo",
+          "module": "library",
+          "version": {
+            "requires": "hingin-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.angcyo",
+          "module": "media",
+          "version": {
+            "requires": "hingin-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.angcyo",
+          "module": "core",
+          "version": {
+            "requires": "hingin-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.angcyo",
+          "module": "dslitem",
+          "version": {
+            "requires": "hingin-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.angcyo",
+          "module": "glide",
+          "version": {
+            "requires": "hingin-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.angcyo",
+          "module": "picker",
+          "version": {
+            "requires": "hingin-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.angcyo",
+          "module": "amap3d",
+          "version": {
+            "requires": "hingin-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.angcyo",
+          "module": "record",
+          "version": {
+            "requires": "hingin-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.tencent.imsdk",
+          "module": "imsdk-plus",
+          "version": {
+            "requires": "5.9.1872"
+          }
+        },
+        {
+          "group": "com.tencent.tpns",
+          "module": "xiaomi",
+          "version": {
+            "requires": "1.2.9.2-release"
+          }
+        },
+        {
+          "group": "com.tencent.tpns",
+          "module": "meizu",
+          "version": {
+            "requires": "1.2.9.2-release"
+          }
+        },
+        {
+          "group": "com.tencent.tpns",
+          "module": "oppo",
+          "version": {
+            "requires": "1.2.9.2-release"
+          }
+        },
+        {
+          "group": "com.tencent.tpns",
+          "module": "vivo",
+          "version": {
+            "requires": "1.2.9.2-release"
+          }
+        },
+        {
+          "group": "com.tencent.tpns",
+          "module": "huawei",
+          "version": {
+            "requires": "1.2.9.2-release"
+          }
+        },
+        {
+          "group": "com.huawei.hms",
+          "module": "push",
+          "version": {
+            "requires": "6.3.0.300"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.24"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "tim-hingin-SNAPSHOT.aar",
+          "url": "tim-hingin-SNAPSHOT.aar",
+          "size": 818858,
+          "sha512": "6acc0d5c47f78b715ee629fdff670b3c0f5b5bad7c7636b352b9fc4c3697e79358538f04310bee8100d971754f75ab9164f6c90f62e2e36a3a0770dcc0aa72fb",
+          "sha256": "12f88ca97d9426be0b1d860744a40fe16396dc5989f85b27c7881b3cf58d8da6",
+          "sha1": "c2ec0e460f6374c4a6bc2bb4b93d1b680d8012c4",
+          "md5": "bb4a0751b53eae7d697d0512b3302b2a"
+        }
+      ]
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "tim-hingin-SNAPSHOT-sources.jar",
+          "url": "tim-hingin-SNAPSHOT-sources.jar",
+          "size": 173253,
+          "sha512": "d26b4efa9ef771ab44083427407a65f514602122047625ce069edff19b051f75ad7f698a9cf338ade19bcf892acba498f41dcd4e43ef217a5aa662a828c9c67e",
+          "sha256": "54746739056346d57f605832ebfda2a8896fe9c71fb8f8c32404065642fdbbcc",
+          "sha1": "84ba9d855f41d301c1a590ba2cbea99775ff1217",
+          "md5": "0b8b1266f3eeccfac2a9c7e9adfb1cd5"
+        }
+      ]
+    }
+  ]
+}

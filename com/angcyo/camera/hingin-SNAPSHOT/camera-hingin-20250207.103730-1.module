@@ -1,0 +1,117 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.angcyo",
+    "module": "camera",
+    "version": "hingin-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.9"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.gitee.angcyo.aar",
+          "module": "CameraCapturer",
+          "version": {
+            "requires": "CameraCapturer_1.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.24"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "camera-hingin-SNAPSHOT.aar",
+          "url": "camera-hingin-SNAPSHOT.aar",
+          "size": 40278,
+          "sha512": "6d2c2e281b9df5e9fcddef907b17832802a2a081fee834dec84f2f2705bf855e6f03e59e6871e4f8e1fb0f00cd938fbcaf9f2d1d2b38b70a623d32ed080b5db6",
+          "sha256": "083041f909c07cc1104a89bf1673316f2e6dfbf268b27ced6a4e80177176e230",
+          "sha1": "6268f816522373d7c81a7e5dd269fe24ee4ebb46",
+          "md5": "dcb3ff2479d13f2e8665062af95cfd70"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.angcyo",
+          "module": "widget",
+          "version": {
+            "requires": "hingin-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.gitee.angcyo.aar",
+          "module": "CameraCapturer",
+          "version": {
+            "requires": "CameraCapturer_1.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.24"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "camera-hingin-SNAPSHOT.aar",
+          "url": "camera-hingin-SNAPSHOT.aar",
+          "size": 40278,
+          "sha512": "6d2c2e281b9df5e9fcddef907b17832802a2a081fee834dec84f2f2705bf855e6f03e59e6871e4f8e1fb0f00cd938fbcaf9f2d1d2b38b70a623d32ed080b5db6",
+          "sha256": "083041f909c07cc1104a89bf1673316f2e6dfbf268b27ced6a4e80177176e230",
+          "sha1": "6268f816522373d7c81a7e5dd269fe24ee4ebb46",
+          "md5": "dcb3ff2479d13f2e8665062af95cfd70"
+        }
+      ]
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "camera-hingin-SNAPSHOT-sources.jar",
+          "url": "camera-hingin-SNAPSHOT-sources.jar",
+          "size": 3907,
+          "sha512": "7d2d6fc1323afc3d59fa2bc9cf3c6b22d9670923231935c160bcf85710626b07a7b0b9c021eed5e3bc4b5c546a729184962fc294a85c70b8995a6db728ef1f39",
+          "sha256": "96e756d307b346d62dd652b1a3c1da89dbe8eb2e36ec5a36adca46f93fa76ea7",
+          "sha1": "39c01096d9e8583addb566ce963e0c7e6c2b75a6",
+          "md5": "c7c0a7a7cf924614fe0384d9ee4e602d"
+        }
+      ]
+    }
+  ]
+}

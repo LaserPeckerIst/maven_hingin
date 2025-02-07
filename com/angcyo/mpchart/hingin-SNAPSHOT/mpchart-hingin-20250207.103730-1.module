@@ -1,0 +1,124 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.angcyo",
+    "module": "mpchart",
+    "version": "hingin-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.9"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.github.angcyo",
+          "module": "MPAndroidChart",
+          "version": {
+            "requires": "3.1.0.4"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.24"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "mpchart-hingin-SNAPSHOT.aar",
+          "url": "mpchart-hingin-SNAPSHOT.aar",
+          "size": 157191,
+          "sha512": "0e65a1855e56dbc7a064dd3db0e81cd8c08cabbdfdeec8d8b580652b3a5316b46dd8ccf381cc1a3388537a609278c2388e3a48987fd0b9413d2ff8929347f92b",
+          "sha256": "128413f031c9864effb62647caaa489bafd2e7f59177147d1e5d87ec77a2eb11",
+          "sha1": "05fda04de5fe550c2d4d6732896ff9a387f50540",
+          "md5": "418b4876c05dd7385c0da9fef36d57d8"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.angcyo",
+          "module": "library",
+          "version": {
+            "requires": "hingin-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.angcyo",
+          "module": "dslitem",
+          "version": {
+            "requires": "hingin-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.github.angcyo",
+          "module": "MPAndroidChart",
+          "version": {
+            "requires": "3.1.0.4"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.24"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "mpchart-hingin-SNAPSHOT.aar",
+          "url": "mpchart-hingin-SNAPSHOT.aar",
+          "size": 157191,
+          "sha512": "0e65a1855e56dbc7a064dd3db0e81cd8c08cabbdfdeec8d8b580652b3a5316b46dd8ccf381cc1a3388537a609278c2388e3a48987fd0b9413d2ff8929347f92b",
+          "sha256": "128413f031c9864effb62647caaa489bafd2e7f59177147d1e5d87ec77a2eb11",
+          "sha1": "05fda04de5fe550c2d4d6732896ff9a387f50540",
+          "md5": "418b4876c05dd7385c0da9fef36d57d8"
+        }
+      ]
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "mpchart-hingin-SNAPSHOT-sources.jar",
+          "url": "mpchart-hingin-SNAPSHOT-sources.jar",
+          "size": 42421,
+          "sha512": "219b4654030a50b085a2b37c72aaec53f794b395f558180e6c66c6b4c7204bd23c01fd85dd52c9a2c518fd5e7e03fd0700ab8af605ef80fc2b0843574dad2093",
+          "sha256": "dbacbe7fa6e309c4cb72bd596b456facefb7cff055a17e5a5139fa0fb6aa8dca",
+          "sha1": "74d36bf76ba96baa70f72171d6a7e98876ac58b5",
+          "md5": "e1b04b363822dffe13c03a4a1f3fc9a6"
+        }
+      ]
+    }
+  ]
+}

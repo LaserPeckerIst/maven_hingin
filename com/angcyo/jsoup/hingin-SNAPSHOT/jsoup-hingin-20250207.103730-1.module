@@ -1,0 +1,131 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.angcyo",
+    "module": "jsoup",
+    "version": "hingin-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.9"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jsoup",
+          "module": "jsoup",
+          "version": {
+            "requires": "1.15.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.24"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "jsoup-hingin-SNAPSHOT.aar",
+          "url": "jsoup-hingin-SNAPSHOT.aar",
+          "size": 56151,
+          "sha512": "26a7510ac9fac614fda2fa3d6d9265ff42ec7933c2c6ec59a21fbe625fd2c8d9bbf6dd72aa05d23522b6a9799116267535e4a41fee50c250d8506b3f26a77c42",
+          "sha256": "1a1fc0522287fd1a3b445555e9e190a7a37cf86b900a1f25b787d3dd58c151f2",
+          "sha1": "974ea34fdef8e9bafc42f8fef8d5c27cbef94aee",
+          "md5": "69889faa4115ce4762700238d406091a"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.angcyo",
+          "module": "library",
+          "version": {
+            "requires": "hingin-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.angcyo",
+          "module": "coroutine",
+          "version": {
+            "requires": "hingin-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.angcyo",
+          "module": "http",
+          "version": {
+            "requires": "hingin-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jsoup",
+          "module": "jsoup",
+          "version": {
+            "requires": "1.15.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.24"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "jsoup-hingin-SNAPSHOT.aar",
+          "url": "jsoup-hingin-SNAPSHOT.aar",
+          "size": 56151,
+          "sha512": "26a7510ac9fac614fda2fa3d6d9265ff42ec7933c2c6ec59a21fbe625fd2c8d9bbf6dd72aa05d23522b6a9799116267535e4a41fee50c250d8506b3f26a77c42",
+          "sha256": "1a1fc0522287fd1a3b445555e9e190a7a37cf86b900a1f25b787d3dd58c151f2",
+          "sha1": "974ea34fdef8e9bafc42f8fef8d5c27cbef94aee",
+          "md5": "69889faa4115ce4762700238d406091a"
+        }
+      ]
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "jsoup-hingin-SNAPSHOT-sources.jar",
+          "url": "jsoup-hingin-SNAPSHOT-sources.jar",
+          "size": 14041,
+          "sha512": "e1e4c2b515a295220b72ed8453a83b7537855bfa47c5230a78ddd9935f05c2656c3f27cb9c4bf0b1785779a686325dcd3c1f6516b96b37ca78e2d5e5112c7eac",
+          "sha256": "4a956acd5f40f9b369c13462277b78df3c3934f66660392da62cf7f55469e9f2",
+          "sha1": "a0307fae6412629bf9d20ce3f8bddc9f1fa39b12",
+          "md5": "9a74e1e607b3282815b042ea8e5f9079"
+        }
+      ]
+    }
+  ]
+}

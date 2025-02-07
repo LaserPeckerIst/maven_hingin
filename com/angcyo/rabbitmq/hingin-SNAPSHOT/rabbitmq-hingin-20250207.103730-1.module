@@ -1,0 +1,117 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.angcyo",
+    "module": "rabbitmq",
+    "version": "hingin-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.9"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.rabbitmq",
+          "module": "amqp-client",
+          "version": {
+            "requires": "4.12.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.24"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "rabbitmq-hingin-SNAPSHOT.aar",
+          "url": "rabbitmq-hingin-SNAPSHOT.aar",
+          "size": 28004,
+          "sha512": "cb072b7c7443a992ed47c803eaed07307d5e439883cc2fbcee15ac5cbfecdafbfba5e4b4d498b404c728f860be6f05dafe6d1d752cab731f9437fc54aeac7f1d",
+          "sha256": "f0b346607ca67d3513c78fe3319b096d87ea06d97e9d165d4d24cf75840c5196",
+          "sha1": "6c173694a2f41e3303bab2c48ef858db0252fe93",
+          "md5": "5b4f1da3b43f1d893cc6cfed96847d87"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.angcyo",
+          "module": "library",
+          "version": {
+            "requires": "hingin-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.rabbitmq",
+          "module": "amqp-client",
+          "version": {
+            "requires": "4.12.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.24"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "rabbitmq-hingin-SNAPSHOT.aar",
+          "url": "rabbitmq-hingin-SNAPSHOT.aar",
+          "size": 28004,
+          "sha512": "cb072b7c7443a992ed47c803eaed07307d5e439883cc2fbcee15ac5cbfecdafbfba5e4b4d498b404c728f860be6f05dafe6d1d752cab731f9437fc54aeac7f1d",
+          "sha256": "f0b346607ca67d3513c78fe3319b096d87ea06d97e9d165d4d24cf75840c5196",
+          "sha1": "6c173694a2f41e3303bab2c48ef858db0252fe93",
+          "md5": "5b4f1da3b43f1d893cc6cfed96847d87"
+        }
+      ]
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "rabbitmq-hingin-SNAPSHOT-sources.jar",
+          "url": "rabbitmq-hingin-SNAPSHOT-sources.jar",
+          "size": 5541,
+          "sha512": "0faa878893649b3c7ccc499e029a1f5a454f716774425362656ee2ecaeaa2129af4ae1ff7a2e756c6fe99db0ddcbba6f8418f33a51485686fc975ec1fa9d3fe1",
+          "sha256": "a0d5f3b986d79fe59a6e0834d3aac2488b1b0a59f0cfe4a38cd51ad368628b2e",
+          "sha1": "d7af43950d4a6d88461b26c3a37494bf285a3cd2",
+          "md5": "cb19d7c175709afde92dee62a9909655"
+        }
+      ]
+    }
+  ]
+}

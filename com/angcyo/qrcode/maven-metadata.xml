@@ -3,10 +3,11 @@
   <groupId>com.angcyo</groupId>
   <artifactId>qrcode</artifactId>
   <versioning>
-    <latest>master-SNAPSHOT</latest>
+    <latest>hingin-SNAPSHOT</latest>
     <versions>
       <version>master-SNAPSHOT</version>
+      <version>hingin-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20250207102204</lastUpdated>
+    <lastUpdated>20250207103734</lastUpdated>
   </versioning>
 </metadata>

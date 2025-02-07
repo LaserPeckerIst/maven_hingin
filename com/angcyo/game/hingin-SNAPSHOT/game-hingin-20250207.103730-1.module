@@ -1,0 +1,103 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.angcyo",
+    "module": "game",
+    "version": "hingin-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.9"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.24"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "game-hingin-SNAPSHOT.aar",
+          "url": "game-hingin-SNAPSHOT.aar",
+          "size": 47673,
+          "sha512": "7bf1d1b6d2eefdea8b1cba48495d14ddef7eb282369ab9f0d4b4048a6b293bc481141d56f1a25e1cd581389e47ce12ecaf4bbfb48223ff6ebdd8409d9b629de1",
+          "sha256": "debd3059d1ba2efbd95bb2738819d0a4737b657b688fe9d46b1a8a5130cda011",
+          "sha1": "559f88e7c82cbbd9a049aec6459abab67dcff409",
+          "md5": "3906e83fd15aa70a8c2524cc529237ff"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.angcyo",
+          "module": "library",
+          "version": {
+            "requires": "hingin-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.24"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "game-hingin-SNAPSHOT.aar",
+          "url": "game-hingin-SNAPSHOT.aar",
+          "size": 47673,
+          "sha512": "7bf1d1b6d2eefdea8b1cba48495d14ddef7eb282369ab9f0d4b4048a6b293bc481141d56f1a25e1cd581389e47ce12ecaf4bbfb48223ff6ebdd8409d9b629de1",
+          "sha256": "debd3059d1ba2efbd95bb2738819d0a4737b657b688fe9d46b1a8a5130cda011",
+          "sha1": "559f88e7c82cbbd9a049aec6459abab67dcff409",
+          "md5": "3906e83fd15aa70a8c2524cc529237ff"
+        }
+      ]
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "game-hingin-SNAPSHOT-sources.jar",
+          "url": "game-hingin-SNAPSHOT-sources.jar",
+          "size": 19787,
+          "sha512": "0156291694344c0ea1f33ed0b2e6a2f2d276964a55e62fda770bedc26a9a793abbab4a367c8d3960ab73178d81d5cfac27f6d2bb6cc1bd669c1a96d8b8b22b53",
+          "sha256": "1dac83ff6b5c6eb5bd0cb6db22ea4dbec205692036ed5d00c9c1dea058bed984",
+          "sha1": "8bb7e7e9dd56e9456f29c2c30cdb8a1cf942c13b",
+          "md5": "d52e7d6fa3ea83782fc304966d1c96be"
+        }
+      ]
+    }
+  ]
+}

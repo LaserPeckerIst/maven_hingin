@@ -1,0 +1,131 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.angcyo",
+    "module": "mqtt",
+    "version": "hingin-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.9"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.eclipse.paho",
+          "module": "org.eclipse.paho.client.mqttv3",
+          "version": {
+            "requires": "1.2.5"
+          }
+        },
+        {
+          "group": "org.eclipse.paho",
+          "module": "org.eclipse.paho.android.service",
+          "version": {
+            "requires": "1.1.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.24"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "mqtt-hingin-SNAPSHOT.aar",
+          "url": "mqtt-hingin-SNAPSHOT.aar",
+          "size": 47976,
+          "sha512": "ed6b48d076ca1be9375a0346bd004e5cf0bf9c076c4dd1860c8b34a1cec01a802fe1c2c8252b64fe95944de6b69dcd220a0332bdbaf964580a2291c58ba0404c",
+          "sha256": "153a8fa4b680c58a75f2f4625c80938a06d5aafecf9d1ec4522584a6978667cf",
+          "sha1": "3fc206f5afade05ef2fc64bfcf3c154895b9d73f",
+          "md5": "dccd6a14d1e114a01020a94dd38be690"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.angcyo",
+          "module": "library",
+          "version": {
+            "requires": "hingin-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.eclipse.paho",
+          "module": "org.eclipse.paho.client.mqttv3",
+          "version": {
+            "requires": "1.2.5"
+          }
+        },
+        {
+          "group": "org.eclipse.paho",
+          "module": "org.eclipse.paho.android.service",
+          "version": {
+            "requires": "1.1.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.24"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "mqtt-hingin-SNAPSHOT.aar",
+          "url": "mqtt-hingin-SNAPSHOT.aar",
+          "size": 47976,
+          "sha512": "ed6b48d076ca1be9375a0346bd004e5cf0bf9c076c4dd1860c8b34a1cec01a802fe1c2c8252b64fe95944de6b69dcd220a0332bdbaf964580a2291c58ba0404c",
+          "sha256": "153a8fa4b680c58a75f2f4625c80938a06d5aafecf9d1ec4522584a6978667cf",
+          "sha1": "3fc206f5afade05ef2fc64bfcf3c154895b9d73f",
+          "md5": "dccd6a14d1e114a01020a94dd38be690"
+        }
+      ]
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "mqtt-hingin-SNAPSHOT-sources.jar",
+          "url": "mqtt-hingin-SNAPSHOT-sources.jar",
+          "size": 12609,
+          "sha512": "8345d1549dac3639fc4edef1aaa6d2ddc6699ed6e7bb2addaa1b6677463d9fbb68b2581711b35f6b2533a51c062cc0b68bbe7d3b6a93c926a35bfd9f3d1ad504",
+          "sha256": "888dcade9a219568897db8d58954e601578d2b114660cfd681d4d3c60a0332ee",
+          "sha1": "10e6375a69a0200e8431880343034d95fff2dcec",
+          "md5": "2c5f448946707aaa73668706c928b385"
+        }
+      ]
+    }
+  ]
+}

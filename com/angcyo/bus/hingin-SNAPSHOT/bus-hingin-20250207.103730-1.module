@@ -1,0 +1,117 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.angcyo",
+    "module": "bus",
+    "version": "hingin-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.9"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.github.angcyo",
+          "module": "LiveEventBus",
+          "version": {
+            "requires": "1.8.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.24"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "bus-hingin-SNAPSHOT.aar",
+          "url": "bus-hingin-SNAPSHOT.aar",
+          "size": 18108,
+          "sha512": "84bc010a46b8f7220faeac24bc090ac3c6f0478de59243e7947e6030b8a35a730cb7fae2c57e034cfdd069b78e1d48e5c7da407ac320e8792e66e2f080bec07c",
+          "sha256": "77f7e313ade7676cd7e89737d9235ac4389a119a02ac4edc356d7910d73eff6a",
+          "sha1": "5ba89bfb8c48d91160edf4913e207b6072f86701",
+          "md5": "df77a6cdb04c757379b72e609e737db9"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.angcyo",
+          "module": "library",
+          "version": {
+            "requires": "hingin-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.github.angcyo",
+          "module": "LiveEventBus",
+          "version": {
+            "requires": "1.8.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.24"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "bus-hingin-SNAPSHOT.aar",
+          "url": "bus-hingin-SNAPSHOT.aar",
+          "size": 18108,
+          "sha512": "84bc010a46b8f7220faeac24bc090ac3c6f0478de59243e7947e6030b8a35a730cb7fae2c57e034cfdd069b78e1d48e5c7da407ac320e8792e66e2f080bec07c",
+          "sha256": "77f7e313ade7676cd7e89737d9235ac4389a119a02ac4edc356d7910d73eff6a",
+          "sha1": "5ba89bfb8c48d91160edf4913e207b6072f86701",
+          "md5": "df77a6cdb04c757379b72e609e737db9"
+        }
+      ]
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "bus-hingin-SNAPSHOT-sources.jar",
+          "url": "bus-hingin-SNAPSHOT-sources.jar",
+          "size": 3567,
+          "sha512": "ecbdafcb9283210960c72548b8737b47b2d746646e01f626cd0d24fd620318275bb74c55a2790d055f088cf1f14255eff048015405385d6da9574a9fa660a227",
+          "sha256": "5e0f707a54f4de7d97232e9499c9f249d9c8470b5266cfe418c4e1cafdcad777",
+          "sha1": "757758ac38c0d23c01419d2364e134cf9ee77a55",
+          "md5": "f17e3bb795a39dc666be89eb53202fd1"
+        }
+      ]
+    }
+  ]
+}

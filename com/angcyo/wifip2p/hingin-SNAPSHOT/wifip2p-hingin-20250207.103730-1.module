@@ -1,0 +1,124 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.angcyo",
+    "module": "wifip2p",
+    "version": "hingin-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.9"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.24"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "wifip2p-hingin-SNAPSHOT.aar",
+          "url": "wifip2p-hingin-SNAPSHOT.aar",
+          "size": 106096,
+          "sha512": "2949cb91d7d0232e34f804edec06334d3aa9c71620c8f572afbf6c5c45b58ea6deb516128f20c9178a061d3d259b3fcae7b6097f68ab097de9daa71b2faa586d",
+          "sha256": "858917be4d4f3a53e0a93756d64925b3e75b688705557348712a540ef6a0af7d",
+          "sha1": "0c1f01ba0649ac8c75c738d013e1ce7f8a3482f3",
+          "md5": "009edfd62f512426b54d473321892240"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-parcelize-runtime",
+          "version": {
+            "requires": "1.9.24"
+          }
+        },
+        {
+          "group": "com.angcyo",
+          "module": "library",
+          "version": {
+            "requires": "hingin-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.angcyo",
+          "module": "viewmodel",
+          "version": {
+            "requires": "hingin-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.angcyo",
+          "module": "core",
+          "version": {
+            "requires": "hingin-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.24"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "wifip2p-hingin-SNAPSHOT.aar",
+          "url": "wifip2p-hingin-SNAPSHOT.aar",
+          "size": 106096,
+          "sha512": "2949cb91d7d0232e34f804edec06334d3aa9c71620c8f572afbf6c5c45b58ea6deb516128f20c9178a061d3d259b3fcae7b6097f68ab097de9daa71b2faa586d",
+          "sha256": "858917be4d4f3a53e0a93756d64925b3e75b688705557348712a540ef6a0af7d",
+          "sha1": "0c1f01ba0649ac8c75c738d013e1ce7f8a3482f3",
+          "md5": "009edfd62f512426b54d473321892240"
+        }
+      ]
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "wifip2p-hingin-SNAPSHOT-sources.jar",
+          "url": "wifip2p-hingin-SNAPSHOT-sources.jar",
+          "size": 32891,
+          "sha512": "cb548c8a4992ac2dacfa1d72adc47e0b464fc6a5fca3052c25657128e03fef6d7d2daaec01c7048f57bcf6bff74a7c7b07b4243b93622c68177b8ea57d8ff5a5",
+          "sha256": "ac0adcfa0163c563d9f2ee9260d4f6881dacbb050e5f0b84b2be6dbae0e26e5e",
+          "sha1": "3f13d0910ec33e078b279b702855b5609c96bb1c",
+          "md5": "c57220c0dedaf1fb956d216a781130b3"
+        }
+      ]
+    }
+  ]
+}
