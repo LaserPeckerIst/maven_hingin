@@ -1,0 +1,103 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.angcyo",
+    "module": "CrashSight",
+    "version": "hingin-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.9"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.25"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "CrashSight-hingin-SNAPSHOT.aar",
+          "url": "CrashSight-hingin-SNAPSHOT.aar",
+          "size": 1500070,
+          "sha512": "77d1d5e0aee0b37fe0f9c61f1a81626444f49ab7775d48de8ed62a0d5439cf5994f7ad9fd2425e72ec7b108b6fa39692c786e2a0979a284e893f4a96edbab53c",
+          "sha256": "d45c4e8a69277bf60d42bee30643d810f309afdbd4c1fb96f810f0ae6e8233c3",
+          "sha1": "c6b753b40019bf4eedf1ed1c60f2ba10d84704c2",
+          "md5": "7e25fc3755f3e2a6a43d728ec535c250"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.angcyo",
+          "module": "library",
+          "version": {
+            "requires": "hingin-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.25"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "CrashSight-hingin-SNAPSHOT.aar",
+          "url": "CrashSight-hingin-SNAPSHOT.aar",
+          "size": 1500070,
+          "sha512": "77d1d5e0aee0b37fe0f9c61f1a81626444f49ab7775d48de8ed62a0d5439cf5994f7ad9fd2425e72ec7b108b6fa39692c786e2a0979a284e893f4a96edbab53c",
+          "sha256": "d45c4e8a69277bf60d42bee30643d810f309afdbd4c1fb96f810f0ae6e8233c3",
+          "sha1": "c6b753b40019bf4eedf1ed1c60f2ba10d84704c2",
+          "md5": "7e25fc3755f3e2a6a43d728ec535c250"
+        }
+      ]
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "CrashSight-hingin-SNAPSHOT-sources.jar",
+          "url": "CrashSight-hingin-SNAPSHOT-sources.jar",
+          "size": 2305,
+          "sha512": "13b8510f21290b981a0e88dd33d9e7f1014fb4ebf967c6ee14277f150b1f4cd02011156fcef98cd27ae6f5cebb4a81cdf7c1247839a5ad99c17b8532c3c3bb58",
+          "sha256": "6082b47b1a13f09fd8f8fafa1c521be152f624b4b579ce05e4c626c431b6142f",
+          "sha1": "0b7511072267fa51d83497a7880af05c718cb7d4",
+          "md5": "4b0b67b50369488cf6a9c70a376631f4"
+        }
+      ]
+    }
+  ]
+}

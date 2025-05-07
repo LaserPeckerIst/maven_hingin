@@ -1,0 +1,145 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.angcyo",
+    "module": "viewmodel",
+    "version": "hingin-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.9"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-viewmodel-ktx",
+          "version": {
+            "requires": "2.6.1"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-livedata-ktx",
+          "version": {
+            "requires": "2.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.25"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "viewmodel-hingin-SNAPSHOT.aar",
+          "url": "viewmodel-hingin-SNAPSHOT.aar",
+          "size": 45225,
+          "sha512": "87ebc48ccfc7054374a57a16b98a225c6b3845215025b2de421342646b546360be767bea24e4c665a0d858fa5a81344a3545e4d9b667cc53d8d4d3c675d6b3cd",
+          "sha256": "97e3b95d5857d62e96f09902393a8133ec3792ae2a1b92fcbdea0b1d2a646c57",
+          "sha1": "172b617b12d2066b9a64878a762c8d6e9c8f86da",
+          "md5": "96b9c4ac91976cb5381d71f9ea00c91f"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.angcyo",
+          "module": "library",
+          "version": {
+            "requires": "hingin-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.angcyo",
+          "module": "coroutine",
+          "version": {
+            "requires": "hingin-SNAPSHOT"
+          }
+        },
+        {
+          "group": "androidx.fragment",
+          "module": "fragment-ktx",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-viewmodel-ktx",
+          "version": {
+            "requires": "2.6.1"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-livedata-ktx",
+          "version": {
+            "requires": "2.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.25"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "viewmodel-hingin-SNAPSHOT.aar",
+          "url": "viewmodel-hingin-SNAPSHOT.aar",
+          "size": 45225,
+          "sha512": "87ebc48ccfc7054374a57a16b98a225c6b3845215025b2de421342646b546360be767bea24e4c665a0d858fa5a81344a3545e4d9b667cc53d8d4d3c675d6b3cd",
+          "sha256": "97e3b95d5857d62e96f09902393a8133ec3792ae2a1b92fcbdea0b1d2a646c57",
+          "sha1": "172b617b12d2066b9a64878a762c8d6e9c8f86da",
+          "md5": "96b9c4ac91976cb5381d71f9ea00c91f"
+        }
+      ]
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "viewmodel-hingin-SNAPSHOT-sources.jar",
+          "url": "viewmodel-hingin-SNAPSHOT-sources.jar",
+          "size": 18941,
+          "sha512": "4cd189e7593d812c231b2f3aeb28862fc7391b53d5dd66409f0b513fd55dd311c05d97f05a7f353de0e6faf100864d33be848dfae6d833c90ba2fe924ec45e9f",
+          "sha256": "f26776e8d196f679932334b07bfe8f066bbd4d4a5d57032eede23d60edc4d693",
+          "sha1": "5bf067d95d9967a07287f1607e06ea4a8499c4a2",
+          "md5": "869811d1d31b3d4167937b96f55bbd2f"
+        }
+      ]
+    }
+  ]
+}

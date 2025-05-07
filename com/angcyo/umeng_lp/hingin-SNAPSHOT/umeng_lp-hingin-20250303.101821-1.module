@@ -1,0 +1,124 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.angcyo",
+    "module": "umeng_lp",
+    "version": "hingin-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.9"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.24"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "umeng_lp-hingin-SNAPSHOT.aar",
+          "url": "umeng_lp-hingin-SNAPSHOT.aar",
+          "size": 25313,
+          "sha512": "e65b5644258e3002c21bdc4b2c71a1389144917c0391a93777f7d2b6f7ac77e86345750ee859cb358e4359d2bbb645ff34eff96def32455f85a0d10e26ca5962",
+          "sha256": "c25c3ec30089811b4b3758d0ac0763efefed7ba8eaf0d747d03c48bc1ae96738",
+          "sha1": "fce0f44cc30d090b4b7ce2c3ed70ae8cb63adb34",
+          "md5": "f43c7275772f54afb78018c52fb10955"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.angcyo",
+          "module": "library",
+          "version": {
+            "requires": "hingin-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.umeng.umsdk",
+          "module": "common",
+          "version": {
+            "requires": "9.7.7"
+          }
+        },
+        {
+          "group": "com.umeng.umsdk",
+          "module": "asms",
+          "version": {
+            "requires": "1.8.3"
+          }
+        },
+        {
+          "group": "com.umeng.umsdk",
+          "module": "abtest",
+          "version": {
+            "requires": "1.0.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.24"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "umeng_lp-hingin-SNAPSHOT.aar",
+          "url": "umeng_lp-hingin-SNAPSHOT.aar",
+          "size": 25313,
+          "sha512": "e65b5644258e3002c21bdc4b2c71a1389144917c0391a93777f7d2b6f7ac77e86345750ee859cb358e4359d2bbb645ff34eff96def32455f85a0d10e26ca5962",
+          "sha256": "c25c3ec30089811b4b3758d0ac0763efefed7ba8eaf0d747d03c48bc1ae96738",
+          "sha1": "fce0f44cc30d090b4b7ce2c3ed70ae8cb63adb34",
+          "md5": "f43c7275772f54afb78018c52fb10955"
+        }
+      ]
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "umeng_lp-hingin-SNAPSHOT-sources.jar",
+          "url": "umeng_lp-hingin-SNAPSHOT-sources.jar",
+          "size": 12497,
+          "sha512": "e77c6abde35534adda87b80f38e2158451222453181d6b9914738588509ac2190322d68a08a7ac803cb3bd4362b0aa15384a99abac06f9443fc9a99914c5e11b",
+          "sha256": "d319c93d2f080897f63eae6c24558e77accc12eb33fc1d8a58293aaafe34a38e",
+          "sha1": "386fd8b98255c22509a0000e4039e2dcdd2c0dc2",
+          "md5": "0715ed8b1083eb4881e04a6012d6dcf6"
+        }
+      ]
+    }
+  ]
+}

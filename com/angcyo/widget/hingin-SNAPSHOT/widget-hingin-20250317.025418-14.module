@@ -1,0 +1,236 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.angcyo",
+    "module": "widget",
+    "version": "hingin-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.9"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.angcyo",
+          "module": "library",
+          "version": {
+            "requires": "hingin-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.angcyo",
+          "module": "drawable",
+          "version": {
+            "requires": "hingin-SNAPSHOT"
+          }
+        },
+        {
+          "group": "androidx.fragment",
+          "module": "fragment-ktx",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "androidx.activity",
+          "module": "activity-ktx",
+          "version": {
+            "requires": "1.7.2"
+          }
+        },
+        {
+          "group": "androidx.cardview",
+          "module": "cardview",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "androidx.recyclerview",
+          "module": "recyclerview",
+          "version": {
+            "requires": "1.3.1"
+          }
+        },
+        {
+          "group": "androidx.constraintlayout",
+          "module": "constraintlayout",
+          "version": {
+            "requires": "2.1.4"
+          }
+        },
+        {
+          "group": "androidx.coordinatorlayout",
+          "module": "coordinatorlayout",
+          "version": {
+            "requires": "1.2.0"
+          }
+        },
+        {
+          "group": "androidx.viewpager2",
+          "module": "viewpager2",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "com.github.LaserPeckerIst",
+          "module": "AnimatedSvgView",
+          "version": {
+            "requires": "1.0.6.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.25"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "widget-hingin-SNAPSHOT.aar",
+          "url": "widget-hingin-SNAPSHOT.aar",
+          "size": 1919890,
+          "sha512": "a2f14d75cc47556b1fe3c055718cfe170bc6b5a0eb21670fdb350261250984aed33a016059157372e948524fa829dc4b5bf0e3390c87733676553ea5f6bdf75c",
+          "sha256": "0b673d3727aaaa93feb6db6054ab533054821db401950d8c5d61f922099fa409",
+          "sha1": "e1f8326b574e3465dcb0ad8c7d97cb2623c591a6",
+          "md5": "a545c7e097099641c01f27238039e4e2"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.angcyo",
+          "module": "library",
+          "version": {
+            "requires": "hingin-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.angcyo",
+          "module": "drawable",
+          "version": {
+            "requires": "hingin-SNAPSHOT"
+          }
+        },
+        {
+          "group": "androidx.fragment",
+          "module": "fragment-ktx",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "androidx.activity",
+          "module": "activity-ktx",
+          "version": {
+            "requires": "1.7.2"
+          }
+        },
+        {
+          "group": "androidx.cardview",
+          "module": "cardview",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "androidx.recyclerview",
+          "module": "recyclerview",
+          "version": {
+            "requires": "1.3.1"
+          }
+        },
+        {
+          "group": "androidx.constraintlayout",
+          "module": "constraintlayout",
+          "version": {
+            "requires": "2.1.4"
+          }
+        },
+        {
+          "group": "androidx.coordinatorlayout",
+          "module": "coordinatorlayout",
+          "version": {
+            "requires": "1.2.0"
+          }
+        },
+        {
+          "group": "androidx.viewpager2",
+          "module": "viewpager2",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "com.github.LaserPeckerIst",
+          "module": "AnimatedSvgView",
+          "version": {
+            "requires": "1.0.6.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.25"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "widget-hingin-SNAPSHOT.aar",
+          "url": "widget-hingin-SNAPSHOT.aar",
+          "size": 1919890,
+          "sha512": "a2f14d75cc47556b1fe3c055718cfe170bc6b5a0eb21670fdb350261250984aed33a016059157372e948524fa829dc4b5bf0e3390c87733676553ea5f6bdf75c",
+          "sha256": "0b673d3727aaaa93feb6db6054ab533054821db401950d8c5d61f922099fa409",
+          "sha1": "e1f8326b574e3465dcb0ad8c7d97cb2623c591a6",
+          "md5": "a545c7e097099641c01f27238039e4e2"
+        }
+      ]
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "widget-hingin-SNAPSHOT-sources.jar",
+          "url": "widget-hingin-SNAPSHOT-sources.jar",
+          "size": 977195,
+          "sha512": "fc0dfae6f7a9ff3cc75e724d50e09add75d9eb92a23b6234e2d96b42e34270722cd0a494a46a18aafa4de793cd1d9a17822d910cc8236986769bb39984fb96ee",
+          "sha256": "dd2c8ca3d186e956e899f6b711f0238e1905210cf23efc8eac05cc7920829929",
+          "sha1": "0587959c345fa12c51b01fc4d496fee2a4c123ac",
+          "md5": "a5c99356d563afce57b52b5c9135b5f2"
+        }
+      ]
+    }
+  ]
+}

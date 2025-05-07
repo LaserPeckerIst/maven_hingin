@@ -1,0 +1,166 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.angcyo",
+    "module": "objectbox_lp",
+    "version": "hingin-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.9"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.angcyo",
+          "module": "objectbox",
+          "version": {
+            "requires": "hingin-SNAPSHOT"
+          }
+        },
+        {
+          "group": "io.objectbox",
+          "module": "objectbox-java",
+          "version": {
+            "requires": "3.7.0"
+          }
+        },
+        {
+          "group": "io.objectbox",
+          "module": "objectbox-kotlin",
+          "version": {
+            "requires": "3.7.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.25"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "objectbox_lp-hingin-SNAPSHOT.aar",
+          "url": "objectbox_lp-hingin-SNAPSHOT.aar",
+          "size": 195811,
+          "sha512": "6ee25f3af122509792e8cdf8c753da04b96a5adedb547839c1208dc41a33e902a37a48b296f1c97744c8852130cf4fd236fe7e3b487d8a5b36d8c68e32bc145b",
+          "sha256": "571a949a8942312a0dcf89e94382d29da88ac9734ccb24cf73af55c8009db09a",
+          "sha1": "0146a8f1d8baa0585e7318f0fd39e2d29684a8b1",
+          "md5": "8b2488d40d68693eb63d266c189bf27d"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "io.objectbox",
+          "module": "objectbox-android",
+          "version": {
+            "requires": "3.7.0"
+          }
+        },
+        {
+          "group": "com.angcyo",
+          "module": "library",
+          "version": {
+            "requires": "hingin-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.angcyo",
+          "module": "http",
+          "version": {
+            "requires": "hingin-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.angcyo",
+          "module": "drawable",
+          "version": {
+            "requires": "hingin-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.angcyo",
+          "module": "objectbox",
+          "version": {
+            "requires": "hingin-SNAPSHOT"
+          }
+        },
+        {
+          "group": "io.objectbox",
+          "module": "objectbox-java",
+          "version": {
+            "requires": "3.7.0"
+          }
+        },
+        {
+          "group": "io.objectbox",
+          "module": "objectbox-kotlin",
+          "version": {
+            "requires": "3.7.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.25"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "objectbox_lp-hingin-SNAPSHOT.aar",
+          "url": "objectbox_lp-hingin-SNAPSHOT.aar",
+          "size": 195811,
+          "sha512": "6ee25f3af122509792e8cdf8c753da04b96a5adedb547839c1208dc41a33e902a37a48b296f1c97744c8852130cf4fd236fe7e3b487d8a5b36d8c68e32bc145b",
+          "sha256": "571a949a8942312a0dcf89e94382d29da88ac9734ccb24cf73af55c8009db09a",
+          "sha1": "0146a8f1d8baa0585e7318f0fd39e2d29684a8b1",
+          "md5": "8b2488d40d68693eb63d266c189bf27d"
+        }
+      ]
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "objectbox_lp-hingin-SNAPSHOT-sources.jar",
+          "url": "objectbox_lp-hingin-SNAPSHOT-sources.jar",
+          "size": 42863,
+          "sha512": "c8fd697bc34da7b833e0d03469316ef94513f5aa6a4018ec4ffeb109965b52be32f0a3305fc789c1f286a035ef30b0c8f24d765905e48116f5412cb377f2f20e",
+          "sha256": "1aae6e35f82d920e7d4df10c14e97c8789cacbe6932230ccbf8a7cfd10366563",
+          "sha1": "84c97e4c4347e74fbc56a82a2886bd5038da1038",
+          "md5": "e6229a036be4dc63cd593416ae36983c"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,131 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.angcyo",
+    "module": "fragment",
+    "version": "hingin-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.9"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.angcyo",
+          "module": "widget",
+          "version": {
+            "requires": "hingin-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.24"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "fragment-hingin-SNAPSHOT.aar",
+          "url": "fragment-hingin-SNAPSHOT.aar",
+          "size": 301161,
+          "sha512": "8dc3134c3b37d4df964594545a53843b00f18911d2d497132e45198339ab87b8ad0bfef50649ed2a38f6af88434e1e88dea5d6483614844f643d1b056de7ca92",
+          "sha256": "7e47239577857795bae8666ca22fa635f7194515f7ae8dc34827389ae813d72f",
+          "sha1": "b3617d4e6a95c944118bd0c3b083196389329be0",
+          "md5": "ac7a4d6beb3e6c0f5fa7f367f92e47f3"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-parcelize-runtime",
+          "version": {
+            "requires": "1.9.24"
+          }
+        },
+        {
+          "group": "com.angcyo",
+          "module": "http",
+          "version": {
+            "requires": "hingin-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.angcyo",
+          "module": "viewmodel",
+          "version": {
+            "requires": "hingin-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.angcyo",
+          "module": "widget",
+          "version": {
+            "requires": "hingin-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.24"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "fragment-hingin-SNAPSHOT.aar",
+          "url": "fragment-hingin-SNAPSHOT.aar",
+          "size": 301161,
+          "sha512": "8dc3134c3b37d4df964594545a53843b00f18911d2d497132e45198339ab87b8ad0bfef50649ed2a38f6af88434e1e88dea5d6483614844f643d1b056de7ca92",
+          "sha256": "7e47239577857795bae8666ca22fa635f7194515f7ae8dc34827389ae813d72f",
+          "sha1": "b3617d4e6a95c944118bd0c3b083196389329be0",
+          "md5": "ac7a4d6beb3e6c0f5fa7f367f92e47f3"
+        }
+      ]
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "fragment-hingin-SNAPSHOT-sources.jar",
+          "url": "fragment-hingin-SNAPSHOT-sources.jar",
+          "size": 114873,
+          "sha512": "636f6c8174008af6723e49bae695d35729f673c00e0778c51c4ddb26469d70895e0df05dd064fecd8395ebf5fa48cfe0860b1b402df6ddd0b6d6a33d15a25d1c",
+          "sha256": "a688fcb2d0664231550d5f26a793883fe9538b5bd0edef0dc11e6073c8db8367",
+          "sha1": "6aa478d2c2a1f89073af0ea358f114fbec61c07c",
+          "md5": "91c17387e09230838d338122a353a643"
+        }
+      ]
+    }
+  ]
+}

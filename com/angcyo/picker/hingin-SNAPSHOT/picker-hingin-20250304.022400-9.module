@@ -1,0 +1,173 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.angcyo",
+    "module": "picker",
+    "version": "hingin-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.9"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.angcyo",
+          "module": "viewmodel",
+          "version": {
+            "requires": "hingin-SNAPSHOT"
+          }
+        },
+        {
+          "group": "UICoreDemo.UICore",
+          "module": "camera",
+          "version": {
+            "requires": "unspecified"
+          }
+        },
+        {
+          "group": "com.angcyo",
+          "module": "pager",
+          "version": {
+            "requires": "hingin-SNAPSHOT"
+          }
+        },
+        {
+          "group": "androidx.loader",
+          "module": "loader",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.24"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "picker-hingin-SNAPSHOT.aar",
+          "url": "picker-hingin-SNAPSHOT.aar",
+          "size": 352982,
+          "sha512": "744c5f7673eaf6854ad588d2eda330e7e9750a44e9f72459410e200dcfc1e3b5d9666f6802e46bbf1756db3bb49167af57b4074054dbc6dab69442f287a9a278",
+          "sha256": "4f048d9782078508bc7a7a135b9a98b7b6f327d4a8a18cb2f88e66382bbb96bb",
+          "sha1": "c3040f6d407c13532c738b4ea0a79c693df84344",
+          "md5": "9dc2b3ed767aa5b1ad4db7f6e196d274"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-parcelize-runtime",
+          "version": {
+            "requires": "1.9.24"
+          }
+        },
+        {
+          "group": "com.angcyo",
+          "module": "record",
+          "version": {
+            "requires": "hingin-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.github.yalantis",
+          "module": "ucrop",
+          "version": {
+            "requires": "2.2.8"
+          }
+        },
+        {
+          "group": "com.angcyo",
+          "module": "viewmodel",
+          "version": {
+            "requires": "hingin-SNAPSHOT"
+          }
+        },
+        {
+          "group": "UICoreDemo.UICore",
+          "module": "camera",
+          "version": {
+            "requires": "unspecified"
+          }
+        },
+        {
+          "group": "com.angcyo",
+          "module": "pager",
+          "version": {
+            "requires": "hingin-SNAPSHOT"
+          }
+        },
+        {
+          "group": "androidx.loader",
+          "module": "loader",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.24"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "picker-hingin-SNAPSHOT.aar",
+          "url": "picker-hingin-SNAPSHOT.aar",
+          "size": 352982,
+          "sha512": "744c5f7673eaf6854ad588d2eda330e7e9750a44e9f72459410e200dcfc1e3b5d9666f6802e46bbf1756db3bb49167af57b4074054dbc6dab69442f287a9a278",
+          "sha256": "4f048d9782078508bc7a7a135b9a98b7b6f327d4a8a18cb2f88e66382bbb96bb",
+          "sha1": "c3040f6d407c13532c738b4ea0a79c693df84344",
+          "md5": "9dc2b3ed767aa5b1ad4db7f6e196d274"
+        }
+      ]
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "picker-hingin-SNAPSHOT-sources.jar",
+          "url": "picker-hingin-SNAPSHOT-sources.jar",
+          "size": 80739,
+          "sha512": "30e92badb8c027026e54fe36d59394017ef98f0b078a54470e4b5b6aec1b672073cdedd547051689df8fc90473a2bbbdb42aac5b0be35391b2cf5a68a23d85f2",
+          "sha256": "983c65a8bfc4789e0ca5dbd67583668a4a830eb1de15ff81d21b27adf608bad3",
+          "sha1": "7303227b3b22fd540d8be3e8e2698a00fb150641",
+          "md5": "331d5e7617817453c98cf2abcfccdaba"
+        }
+      ]
+    }
+  ]
+}

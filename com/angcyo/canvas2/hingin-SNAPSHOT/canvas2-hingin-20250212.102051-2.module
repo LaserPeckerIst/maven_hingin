@@ -1,0 +1,110 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.angcyo",
+    "module": "canvas2",
+    "version": "hingin-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.9"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.24"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "canvas2-hingin-SNAPSHOT.aar",
+          "url": "canvas2-hingin-SNAPSHOT.aar",
+          "size": 383274,
+          "sha512": "44c63427745dd6e7bafe81678f4f7b6b4ec802eb2b6ca210f5a1a5c7a490594ada77dca8a5c6a779d15cc87ecb59fa0adfb36de5997b9e8266f520cdf756ddf4",
+          "sha256": "a092cf234553f23927bbfb674168819d0a806524d92a6f99b43b304c97540d0a",
+          "sha1": "2777de73efb584119e7508238f9e105a13a479b6",
+          "md5": "7f05318d3c04e981ec7eb487778b80fa"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.angcyo",
+          "module": "library",
+          "version": {
+            "requires": "hingin-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.angcyo",
+          "module": "drawable",
+          "version": {
+            "requires": "hingin-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.24"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "canvas2-hingin-SNAPSHOT.aar",
+          "url": "canvas2-hingin-SNAPSHOT.aar",
+          "size": 383274,
+          "sha512": "44c63427745dd6e7bafe81678f4f7b6b4ec802eb2b6ca210f5a1a5c7a490594ada77dca8a5c6a779d15cc87ecb59fa0adfb36de5997b9e8266f520cdf756ddf4",
+          "sha256": "a092cf234553f23927bbfb674168819d0a806524d92a6f99b43b304c97540d0a",
+          "sha1": "2777de73efb584119e7508238f9e105a13a479b6",
+          "md5": "7f05318d3c04e981ec7eb487778b80fa"
+        }
+      ]
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "canvas2-hingin-SNAPSHOT-sources.jar",
+          "url": "canvas2-hingin-SNAPSHOT-sources.jar",
+          "size": 241105,
+          "sha512": "52a736ae8c5d98f40cd8f134c00372000a6bf1d9b9605aa1bf80889b93e18b2c66185ffcd1f8cb5f648787d1e00dfeee97afa2b1ac4641eabc4172c5f17f3880",
+          "sha256": "f596a4e786a8bd8daf9ed5a74268c534be6b7fdde4fe44375c18afd0be098c5b",
+          "sha1": "c12f1ff1b504b467cdfd3e3be94897c8afdb2b14",
+          "md5": "2c62f4def72b28ac7fd3bf4dc8255c61"
+        }
+      ]
+    }
+  ]
+}

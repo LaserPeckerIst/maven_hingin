@@ -3,32 +3,32 @@
   <groupId>com.angcyo</groupId>
   <artifactId>exoplayer</artifactId>
   <versioning>
-    <lastUpdated>20250207103730</lastUpdated>
+    <lastUpdated>20250430025723</lastUpdated>
     <snapshot>
-      <timestamp>20250207.103730</timestamp>
-      <buildNumber>1</buildNumber>
+      <timestamp>20250430.025723</timestamp>
+      <buildNumber>27</buildNumber>
     </snapshot>
     <snapshotVersions>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>hingin-20250207.103730-1</value>
-        <updated>20250207103730</updated>
+        <value>hingin-20250430.025723-27</value>
+        <updated>20250430025723</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>sources</classifier>
         <extension>jar</extension>
-        <value>hingin-20250207.103730-1</value>
-        <updated>20250207103730</updated>
-      </snapshotVersion>
-      <snapshotVersion>
-        <extension>module</extension>
-        <value>hingin-20250207.103730-1</value>
-        <updated>20250207103730</updated>
+        <value>hingin-20250430.025723-27</value>
+        <updated>20250430025723</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>aar</extension>
-        <value>hingin-20250207.103730-1</value>
-        <updated>20250207103730</updated>
+        <value>hingin-20250430.025723-27</value>
+        <updated>20250430025723</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>module</extension>
+        <value>hingin-20250430.025723-27</value>
+        <updated>20250430025723</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>

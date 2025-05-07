@@ -1,0 +1,152 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.angcyo",
+    "module": "image",
+    "version": "hingin-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.9"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.angcyo",
+          "module": "glide",
+          "version": {
+            "requires": "hingin-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.davemorrissey.labs",
+          "module": "subsampling-scale-image-view-androidx",
+          "version": {
+            "requires": "3.10.0"
+          }
+        },
+        {
+          "group": "com.github.chrisbanes",
+          "module": "PhotoView",
+          "version": {
+            "requires": "2.3.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.25"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "image-hingin-SNAPSHOT.aar",
+          "url": "image-hingin-SNAPSHOT.aar",
+          "size": 63789,
+          "sha512": "402a456f08aeb1a2ea03104aea864afda8a041565b456726b3e13505f059a8f4ee4e212a97010c98fb3698ea9e3a49713662ec55662599747415ea4ac3e57f9f",
+          "sha256": "2bb90ee24b03179965e9023559f347229d4541e02d7c4d24b3c83bf9e94d2b83",
+          "sha1": "026562af56e3beb6b1ee73de71c6c32c6a91f009",
+          "md5": "e85969bc175d0dc1d3bdfcc525b414b9"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.angcyo",
+          "module": "dslitem",
+          "version": {
+            "requires": "hingin-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.angcyo",
+          "module": "download",
+          "version": {
+            "requires": "hingin-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.angcyo",
+          "module": "glide",
+          "version": {
+            "requires": "hingin-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.davemorrissey.labs",
+          "module": "subsampling-scale-image-view-androidx",
+          "version": {
+            "requires": "3.10.0"
+          }
+        },
+        {
+          "group": "com.github.chrisbanes",
+          "module": "PhotoView",
+          "version": {
+            "requires": "2.3.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.25"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "image-hingin-SNAPSHOT.aar",
+          "url": "image-hingin-SNAPSHOT.aar",
+          "size": 63789,
+          "sha512": "402a456f08aeb1a2ea03104aea864afda8a041565b456726b3e13505f059a8f4ee4e212a97010c98fb3698ea9e3a49713662ec55662599747415ea4ac3e57f9f",
+          "sha256": "2bb90ee24b03179965e9023559f347229d4541e02d7c4d24b3c83bf9e94d2b83",
+          "sha1": "026562af56e3beb6b1ee73de71c6c32c6a91f009",
+          "md5": "e85969bc175d0dc1d3bdfcc525b414b9"
+        }
+      ]
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "image-hingin-SNAPSHOT-sources.jar",
+          "url": "image-hingin-SNAPSHOT-sources.jar",
+          "size": 11377,
+          "sha512": "4843b0be50819ef5c323ea3b9b0f416996e5e912b989df5bca3e7312c4f3ced4c4909a93b17062b9a4734fdbb81c08fcd28ead267652123cb70e08c86bdd7406",
+          "sha256": "2ccb97dd749123b0c2a43dbe51203bdf05473c14767fcc5b36c805e829b39174",
+          "sha1": "867ab9fac9313be81374d3da7b51dea1b4831434",
+          "md5": "dd3b9e445581af707a59cd26b2b2d37d"
+        }
+      ]
+    }
+  ]
+}

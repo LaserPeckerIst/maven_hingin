@@ -1,0 +1,117 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.angcyo",
+    "module": "jxl",
+    "version": "hingin-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.9"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "net.sourceforge.jexcelapi",
+          "module": "jxl",
+          "version": {
+            "requires": "2.6.12"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.24"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "jxl-hingin-SNAPSHOT.aar",
+          "url": "jxl-hingin-SNAPSHOT.aar",
+          "size": 19288,
+          "sha512": "046480baa0911a0f111523a27897e43d80b1da83893cddd229b343d4dabbd0e236c61ae64a2274535ee0c3d2af3922527ede61576478b8348a46e92cf140c5a2",
+          "sha256": "d1da800e5cdedff4cccf15041a7101412fba7ebb6ffaa7c93c9f7c014d7ef24b",
+          "sha1": "1b3ccb47d06090dd67bf56bbc3ea15a417359856",
+          "md5": "f22faab755bc05958a2f3cfe3d979989"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.angcyo",
+          "module": "library",
+          "version": {
+            "requires": "hingin-SNAPSHOT"
+          }
+        },
+        {
+          "group": "net.sourceforge.jexcelapi",
+          "module": "jxl",
+          "version": {
+            "requires": "2.6.12"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.24"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "jxl-hingin-SNAPSHOT.aar",
+          "url": "jxl-hingin-SNAPSHOT.aar",
+          "size": 19288,
+          "sha512": "046480baa0911a0f111523a27897e43d80b1da83893cddd229b343d4dabbd0e236c61ae64a2274535ee0c3d2af3922527ede61576478b8348a46e92cf140c5a2",
+          "sha256": "d1da800e5cdedff4cccf15041a7101412fba7ebb6ffaa7c93c9f7c014d7ef24b",
+          "sha1": "1b3ccb47d06090dd67bf56bbc3ea15a417359856",
+          "md5": "f22faab755bc05958a2f3cfe3d979989"
+        }
+      ]
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "jxl-hingin-SNAPSHOT-sources.jar",
+          "url": "jxl-hingin-SNAPSHOT-sources.jar",
+          "size": 3259,
+          "sha512": "32c210de743124bb21eb3caff3b824b98a7a03f54c58ae639852be275830c6f389b61550b5e9a998a0b5360f4dc736a4e93d2e06d27a25157276b88e87a9c59c",
+          "sha256": "a731507fc0c4ca6196c23848304ca40819c22c9a71cc90701c4b9ffb2c8bce98",
+          "sha1": "794e80d6db4514901b0dabbb51d8f0b0e2371967",
+          "md5": "dc6fc518ac7da7345ca65f58ccd40651"
+        }
+      ]
+    }
+  ]
+}

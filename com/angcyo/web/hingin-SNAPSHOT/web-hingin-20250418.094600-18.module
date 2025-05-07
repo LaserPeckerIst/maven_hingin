@@ -1,0 +1,138 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.angcyo",
+    "module": "web",
+    "version": "hingin-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.9"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.webkit",
+          "module": "webkit",
+          "version": {
+            "requires": "1.7.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.25"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "web-hingin-SNAPSHOT.aar",
+          "url": "web-hingin-SNAPSHOT.aar",
+          "size": 198055,
+          "sha512": "c73c4366d8af9822302cecef31df6d4754292598dda0be72dd99c2b9a6cb0a9620ca5eb0c141adc19b91ec2ccc56df7d259ecd483fce9cbb8990d641fef9a7f8",
+          "sha256": "eb047eff8a3f2a6df440d1e3eaa744ae5bdc1be92b3282c001edaeefc1f60020",
+          "sha1": "dfed138471183387dd4403a623e72951d52581b8",
+          "md5": "a75e48df67a4030ed80a29518bd71dcc"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.angcyo",
+          "module": "library",
+          "version": {
+            "requires": "hingin-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.angcyo",
+          "module": "core",
+          "version": {
+            "requires": "hingin-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.angcyo",
+          "module": "download",
+          "version": {
+            "requires": "hingin-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.angcyo",
+          "module": "picker",
+          "version": {
+            "requires": "hingin-SNAPSHOT"
+          }
+        },
+        {
+          "group": "androidx.webkit",
+          "module": "webkit",
+          "version": {
+            "requires": "1.7.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.25"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "web-hingin-SNAPSHOT.aar",
+          "url": "web-hingin-SNAPSHOT.aar",
+          "size": 198055,
+          "sha512": "c73c4366d8af9822302cecef31df6d4754292598dda0be72dd99c2b9a6cb0a9620ca5eb0c141adc19b91ec2ccc56df7d259ecd483fce9cbb8990d641fef9a7f8",
+          "sha256": "eb047eff8a3f2a6df440d1e3eaa744ae5bdc1be92b3282c001edaeefc1f60020",
+          "sha1": "dfed138471183387dd4403a623e72951d52581b8",
+          "md5": "a75e48df67a4030ed80a29518bd71dcc"
+        }
+      ]
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "web-hingin-SNAPSHOT-sources.jar",
+          "url": "web-hingin-SNAPSHOT-sources.jar",
+          "size": 53823,
+          "sha512": "7c7a136f4ee866881eb2f6308e81d5ab8da6a6f39bae39e1756405a21fd2ab6d248a673e8259f0b0ed59decbe070997d8dde0fdb4f63707401ce0985fc2514a2",
+          "sha256": "b4963ab3075d87d5fcc0db7bc93f746f161b6c0efefc546ccb98cb2f550e8cbf",
+          "sha1": "53a58ec68002bbea5c15848f152be273a29829ae",
+          "md5": "d9d61cf836fca0ea3a38874867d7bbc0"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.angcyo",
+    "module": "dialog",
+    "version": "hingin-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.9"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.github.LaserPeckerIst",
+          "module": "ColorPickerView",
+          "version": {
+            "requires": "2.2.4.5"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.25"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "dialog-hingin-SNAPSHOT.aar",
+          "url": "dialog-hingin-SNAPSHOT.aar",
+          "size": 481038,
+          "sha512": "c9b56a98a2f095943b9a19f3ec9ae0463f9ec2073ea350cbc833021ac79159a0f2d5c29112ebe063443cb621b1ec6fe151762b358c44416410a570617beb3ac6",
+          "sha256": "9c36968ae95f03668c0a6508bd4fa1b3e20a1fde8e048e476f45b3a4cf20ccec",
+          "sha1": "ffc1536adf3a312d281a858e89dd7971ab4ba023",
+          "md5": "33eac18b4d9f374877ea2be56a5e1fb2"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.angcyo",
+          "module": "library",
+          "version": {
+            "requires": "hingin-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.angcyo",
+          "module": "widget",
+          "version": {
+            "requires": "hingin-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.angcyo",
+          "module": "transition",
+          "version": {
+            "requires": "hingin-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.angcyo",
+          "module": "fragment",
+          "version": {
+            "requires": "hingin-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.angcyo",
+          "module": "viewmodel",
+          "version": {
+            "requires": "hingin-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.github.LaserPeckerIst",
+          "module": "ColorPickerView",
+          "version": {
+            "requires": "2.2.4.5"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.25"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "dialog-hingin-SNAPSHOT.aar",
+          "url": "dialog-hingin-SNAPSHOT.aar",
+          "size": 481038,
+          "sha512": "c9b56a98a2f095943b9a19f3ec9ae0463f9ec2073ea350cbc833021ac79159a0f2d5c29112ebe063443cb621b1ec6fe151762b358c44416410a570617beb3ac6",
+          "sha256": "9c36968ae95f03668c0a6508bd4fa1b3e20a1fde8e048e476f45b3a4cf20ccec",
+          "sha1": "ffc1536adf3a312d281a858e89dd7971ab4ba023",
+          "md5": "33eac18b4d9f374877ea2be56a5e1fb2"
+        }
+      ]
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "dialog-hingin-SNAPSHOT-sources.jar",
+          "url": "dialog-hingin-SNAPSHOT-sources.jar",
+          "size": 140171,
+          "sha512": "3a7afed3544b40dcce96ad9b488979fa5e49ed6088a22c378b749436377230c1fb96792f0fa7db97d4ce125a5a49d9189fddd664c42efb7e148c6f4c86bb241f",
+          "sha256": "4993b22fa51cbc013f08f43612af55a943794f80ae9dda96101d701e2f978de1",
+          "sha1": "abbe121d25b9176542c9db9dd95faad33626e9b1",
+          "md5": "28a4389a8b15b09dc365cbc0605305b7"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,138 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.angcyo",
+    "module": "dslitem",
+    "version": "hingin-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.9"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.angcyo",
+          "module": "dialog",
+          "version": {
+            "requires": "hingin-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.angcyo",
+          "module": "core",
+          "version": {
+            "requires": "hingin-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.angcyo",
+          "module": "widget",
+          "version": {
+            "requires": "hingin-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.25"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "dslitem-hingin-SNAPSHOT.aar",
+          "url": "dslitem-hingin-SNAPSHOT.aar",
+          "size": 705575,
+          "sha512": "997dea3586dfb534cf906ea501140ed99f870fc876c4f35b4105013e287cd8a9aa2b18fb394d37ed759c4451ceea82d7c1a8f806c4b1fde3fcef2e572b0ba7f2",
+          "sha256": "0c296e1ce7d190d849158ff35990c3aaae21a250803ed5d51744654292beb91b",
+          "sha1": "4bfc0c7a490629b6f8be554947ce40980f1fc2a1",
+          "md5": "92dbccbed653d0f90f8f4d7546359a01"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.angcyo",
+          "module": "dialog",
+          "version": {
+            "requires": "hingin-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.angcyo",
+          "module": "core",
+          "version": {
+            "requires": "hingin-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.angcyo",
+          "module": "widget",
+          "version": {
+            "requires": "hingin-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.25"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "dslitem-hingin-SNAPSHOT.aar",
+          "url": "dslitem-hingin-SNAPSHOT.aar",
+          "size": 705575,
+          "sha512": "997dea3586dfb534cf906ea501140ed99f870fc876c4f35b4105013e287cd8a9aa2b18fb394d37ed759c4451ceea82d7c1a8f806c4b1fde3fcef2e572b0ba7f2",
+          "sha256": "0c296e1ce7d190d849158ff35990c3aaae21a250803ed5d51744654292beb91b",
+          "sha1": "4bfc0c7a490629b6f8be554947ce40980f1fc2a1",
+          "md5": "92dbccbed653d0f90f8f4d7546359a01"
+        }
+      ]
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "dslitem-hingin-SNAPSHOT-sources.jar",
+          "url": "dslitem-hingin-SNAPSHOT-sources.jar",
+          "size": 217009,
+          "sha512": "da9f7e679711d237816832000a2dbe4b0ad47ee12a363cf73a6485b149e93751f3ca1ffc7442045e0762f438eda4715e242fb0f821f34fde4d21a3b68829bb27",
+          "sha256": "4b1e5ccff05465781048094a76847bd441a497334eabe82185122560a971df2b",
+          "sha1": "c17aa037b5ee6f20205270768fea750c5162965a",
+          "md5": "d8fb52774561417f3e76e8497772e1c5"
+        }
+      ]
+    }
+  ]
+}

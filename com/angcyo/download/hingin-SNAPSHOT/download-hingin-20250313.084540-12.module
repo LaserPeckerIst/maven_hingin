@@ -1,0 +1,166 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.angcyo",
+    "module": "download",
+    "version": "hingin-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.9"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.liulishuo.okdownload",
+          "module": "okdownload",
+          "version": {
+            "requires": "1.0.7"
+          }
+        },
+        {
+          "group": "com.liulishuo.okdownload",
+          "module": "ktx",
+          "version": {
+            "requires": "1.0.7"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.25"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "download-hingin-SNAPSHOT.aar",
+          "url": "download-hingin-SNAPSHOT.aar",
+          "size": 286036,
+          "sha512": "c2541aa977d1e710f86d2b253f6fc564405c821b6f3d833d6d8b0c77d30fd468c4979aa917449f96c05390eebd274b95d4c95fecd9f1f83962405923220e2e0e",
+          "sha256": "e6a0dabe9dbe4b425a32bb06a96d312a5fd540d5fe91992b9b6ffb3f43844637",
+          "sha1": "9f9b9a65b5316cbf45eaac8bc97dacaa6cf7db16",
+          "md5": "acfeda6a1178806a77d4914c9b07f0f7"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.angcyo",
+          "module": "library",
+          "version": {
+            "requires": "hingin-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.angcyo",
+          "module": "http",
+          "version": {
+            "requires": "hingin-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.angcyo",
+          "module": "coroutine",
+          "version": {
+            "requires": "hingin-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.angcyo",
+          "module": "dslitem",
+          "version": {
+            "requires": "hingin-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.liulishuo.okdownload",
+          "module": "sqlite",
+          "version": {
+            "requires": "1.0.7"
+          }
+        },
+        {
+          "group": "com.liulishuo.okdownload",
+          "module": "okhttp",
+          "version": {
+            "requires": "1.0.7"
+          }
+        },
+        {
+          "group": "com.liulishuo.okdownload",
+          "module": "okdownload",
+          "version": {
+            "requires": "1.0.7"
+          }
+        },
+        {
+          "group": "com.liulishuo.okdownload",
+          "module": "ktx",
+          "version": {
+            "requires": "1.0.7"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.25"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "download-hingin-SNAPSHOT.aar",
+          "url": "download-hingin-SNAPSHOT.aar",
+          "size": 286036,
+          "sha512": "c2541aa977d1e710f86d2b253f6fc564405c821b6f3d833d6d8b0c77d30fd468c4979aa917449f96c05390eebd274b95d4c95fecd9f1f83962405923220e2e0e",
+          "sha256": "e6a0dabe9dbe4b425a32bb06a96d312a5fd540d5fe91992b9b6ffb3f43844637",
+          "sha1": "9f9b9a65b5316cbf45eaac8bc97dacaa6cf7db16",
+          "md5": "acfeda6a1178806a77d4914c9b07f0f7"
+        }
+      ]
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "download-hingin-SNAPSHOT-sources.jar",
+          "url": "download-hingin-SNAPSHOT-sources.jar",
+          "size": 42233,
+          "sha512": "5616ea7840e726b01ee1b9432791483e06e5f2ecc208316af4dfeb2f44204ab81bfe782d087d4a4a40aca0a916fe4d8348945220635b2a3fd9704a9ad0e9f0c1",
+          "sha256": "72c7d9e7255c0a64b973169f9375b60597b1a55ea06f4a17f75f14831fadd702",
+          "sha1": "231480125a29a35efac0c8a3d31a2efbc997bdb8",
+          "md5": "f8f5720b470bcf36b38dfcaa55128b2d"
+        }
+      ]
+    }
+  ]
+}

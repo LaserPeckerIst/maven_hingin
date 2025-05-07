@@ -1,0 +1,103 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.angcyo",
+    "module": "drawable",
+    "version": "hingin-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.9"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.24"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "drawable-hingin-SNAPSHOT.aar",
+          "url": "drawable-hingin-SNAPSHOT.aar",
+          "size": 215195,
+          "sha512": "5f968608701fcde36722b608cfe94fe73f9e9052f1ed110c23cc238b961703f476432138aa39c2a96a33a5e8ff0b7121879236bcf37d4964fbca192d7d4dcce3",
+          "sha256": "74576622c3417df3c2bf34042a6cdbfde15684d78d68c23870c5ec9a6f8e8775",
+          "sha1": "5a09a98a90f4bb108be63deb66200e052bd2d913",
+          "md5": "e28f4736120ece95b1f12db374909379"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.angcyo",
+          "module": "library",
+          "version": {
+            "requires": "hingin-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.24"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "drawable-hingin-SNAPSHOT.aar",
+          "url": "drawable-hingin-SNAPSHOT.aar",
+          "size": 215195,
+          "sha512": "5f968608701fcde36722b608cfe94fe73f9e9052f1ed110c23cc238b961703f476432138aa39c2a96a33a5e8ff0b7121879236bcf37d4964fbca192d7d4dcce3",
+          "sha256": "74576622c3417df3c2bf34042a6cdbfde15684d78d68c23870c5ec9a6f8e8775",
+          "sha1": "5a09a98a90f4bb108be63deb66200e052bd2d913",
+          "md5": "e28f4736120ece95b1f12db374909379"
+        }
+      ]
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "drawable-hingin-SNAPSHOT-sources.jar",
+          "url": "drawable-hingin-SNAPSHOT-sources.jar",
+          "size": 108015,
+          "sha512": "6b46b5202ce0da2980441363eb84a0c812f9dd449dc5e504d1a51d2122695fb29068c01b3013c3e91e57a63dfab659614174778962d11026ccb31ba83297adf9",
+          "sha256": "82aab1133ac9290f8ae8db8a17dcde6a7d0afe2823f1f73c9df80000b57df12a",
+          "sha1": "c006c71bf62491d17dd29280dba8ac480d1cc30c",
+          "md5": "1d8960e6a08fd93340167920deee7aee"
+        }
+      ]
+    }
+  ]
+}

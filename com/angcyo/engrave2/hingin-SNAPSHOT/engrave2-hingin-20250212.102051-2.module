@@ -1,0 +1,138 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.angcyo",
+    "module": "engrave2",
+    "version": "hingin-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.9"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.angcyo",
+          "module": "lpDevice",
+          "version": {
+            "requires": "hingin-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.24"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "engrave2-hingin-SNAPSHOT.aar",
+          "url": "engrave2-hingin-SNAPSHOT.aar",
+          "size": 1676821,
+          "sha512": "44572d5a8c94f6a77bc4abdb2a35e2a724af7cc2121b2237929bf4eea233e89dc9ca1c829278e8e669d2690082bb844e6b8d36af0fefa6f218f685cbf8dfb6f8",
+          "sha256": "abd9731a789fd7a21e9b4c525bf5d18e811ad0e3732a4ba2b39fc2ff9e41e2cf",
+          "sha1": "e5d8529a05dfcd1e8e0482d694038d5cb9b020b4",
+          "md5": "37bdddabb54ff1c7f27ae14d6c356cf3"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.angcyo",
+          "module": "library",
+          "version": {
+            "requires": "hingin-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.angcyo",
+          "module": "core",
+          "version": {
+            "requires": "hingin-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.angcyo",
+          "module": "transition",
+          "version": {
+            "requires": "hingin-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.angcyo",
+          "module": "dslitem",
+          "version": {
+            "requires": "hingin-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.angcyo",
+          "module": "lpDevice",
+          "version": {
+            "requires": "hingin-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.24"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "engrave2-hingin-SNAPSHOT.aar",
+          "url": "engrave2-hingin-SNAPSHOT.aar",
+          "size": 1676821,
+          "sha512": "44572d5a8c94f6a77bc4abdb2a35e2a724af7cc2121b2237929bf4eea233e89dc9ca1c829278e8e669d2690082bb844e6b8d36af0fefa6f218f685cbf8dfb6f8",
+          "sha256": "abd9731a789fd7a21e9b4c525bf5d18e811ad0e3732a4ba2b39fc2ff9e41e2cf",
+          "sha1": "e5d8529a05dfcd1e8e0482d694038d5cb9b020b4",
+          "md5": "37bdddabb54ff1c7f27ae14d6c356cf3"
+        }
+      ]
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "engrave2-hingin-SNAPSHOT-sources.jar",
+          "url": "engrave2-hingin-SNAPSHOT-sources.jar",
+          "size": 117961,
+          "sha512": "d2a9ccea1f9dafb732b21f891395fe2063ca94d342b2186cb5ff1090569409cee112425f73e1cc4e73ea0d8acce8db38123eee713102c73148f0f9d839bd6892",
+          "sha256": "737e7471e90fbac75b81f747f0508bd7968e293f1074e65a36d3e49d3b664ed5",
+          "sha1": "21e394d0aa9593e01719065759c7d33bf53c9d29",
+          "md5": "2e482ba1f081cac3a433073a72e923a5"
+        }
+      ]
+    }
+  ]
+}

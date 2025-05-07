@@ -1,0 +1,208 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.angcyo",
+    "module": "camerax",
+    "version": "hingin-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.9"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.dynamicanimation",
+          "module": "dynamicanimation",
+          "version": {
+            "requires": "1.1.0-alpha03"
+          }
+        },
+        {
+          "group": "androidx.dynamicanimation",
+          "module": "dynamicanimation-ktx",
+          "version": {
+            "requires": "1.0.0-alpha03"
+          }
+        },
+        {
+          "group": "androidx.camera",
+          "module": "camera-core",
+          "version": {
+            "requires": "1.2.3"
+          }
+        },
+        {
+          "group": "androidx.camera",
+          "module": "camera-camera2",
+          "version": {
+            "requires": "1.2.3"
+          }
+        },
+        {
+          "group": "androidx.camera",
+          "module": "camera-lifecycle",
+          "version": {
+            "requires": "1.2.3"
+          }
+        },
+        {
+          "group": "androidx.camera",
+          "module": "camera-view",
+          "version": {
+            "requires": "1.2.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.25"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "camerax-hingin-SNAPSHOT.aar",
+          "url": "camerax-hingin-SNAPSHOT.aar",
+          "size": 212550,
+          "sha512": "5a54698e359eb4284032496b305a44b8e6d7f150501cc5354a5216049a9824fbe2cb7df0765461d9b33826da242815216fcb3034e9f17421dcb0d88c4fe78182",
+          "sha256": "2b0353915e64e64365a552ede8c634ee25ebd5ef07e156373c991d4d2fe5a5ee",
+          "sha1": "4245ce85d47e87b48c7c550aab5a4b6bfc4614fa",
+          "md5": "b90483c3e6b43c73edcd3a3abd5c632f"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.angcyo",
+          "module": "dslitem",
+          "version": {
+            "requires": "hingin-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.angcyo",
+          "module": "core",
+          "version": {
+            "requires": "hingin-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.angcyo",
+          "module": "media",
+          "version": {
+            "requires": "hingin-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.angcyo",
+          "module": "record",
+          "version": {
+            "requires": "hingin-SNAPSHOT"
+          }
+        },
+        {
+          "group": "androidx.dynamicanimation",
+          "module": "dynamicanimation",
+          "version": {
+            "requires": "1.1.0-alpha03"
+          }
+        },
+        {
+          "group": "androidx.dynamicanimation",
+          "module": "dynamicanimation-ktx",
+          "version": {
+            "requires": "1.0.0-alpha03"
+          }
+        },
+        {
+          "group": "androidx.camera",
+          "module": "camera-core",
+          "version": {
+            "requires": "1.2.3"
+          }
+        },
+        {
+          "group": "androidx.camera",
+          "module": "camera-camera2",
+          "version": {
+            "requires": "1.2.3"
+          }
+        },
+        {
+          "group": "androidx.camera",
+          "module": "camera-lifecycle",
+          "version": {
+            "requires": "1.2.3"
+          }
+        },
+        {
+          "group": "androidx.camera",
+          "module": "camera-view",
+          "version": {
+            "requires": "1.2.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.25"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "camerax-hingin-SNAPSHOT.aar",
+          "url": "camerax-hingin-SNAPSHOT.aar",
+          "size": 212550,
+          "sha512": "5a54698e359eb4284032496b305a44b8e6d7f150501cc5354a5216049a9824fbe2cb7df0765461d9b33826da242815216fcb3034e9f17421dcb0d88c4fe78182",
+          "sha256": "2b0353915e64e64365a552ede8c634ee25ebd5ef07e156373c991d4d2fe5a5ee",
+          "sha1": "4245ce85d47e87b48c7c550aab5a4b6bfc4614fa",
+          "md5": "b90483c3e6b43c73edcd3a3abd5c632f"
+        }
+      ]
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "camerax-hingin-SNAPSHOT-sources.jar",
+          "url": "camerax-hingin-SNAPSHOT-sources.jar",
+          "size": 84011,
+          "sha512": "d6b783173f12457e5ef4f4526913b3a03758c1e2bdade6385382233aa5d466c1173e6f9aa98ca47cc04e2aaeb83668f45f3d8332928a73a0b18917c577c858f2",
+          "sha256": "8c3432fd13b1c55ca9f08f26126300116de2119d1c479ba8341bd441c07b9ed5",
+          "sha1": "62688298d70e2f97595b5b8fa18d562fb6b8b774",
+          "md5": "8fd96e06633ad6dd137957b7e7038111"
+        }
+      ]
+    }
+  ]
+}
