@@ -1,0 +1,271 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.angcyo",
+    "module": "http",
+    "version": "hingin-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.9"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp",
+          "version": {
+            "requires": "4.11.0"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "logging-interceptor",
+          "version": {
+            "requires": "4.10.0"
+          }
+        },
+        {
+          "group": "io.reactivex.rxjava2",
+          "module": "rxjava",
+          "version": {
+            "requires": "2.2.21"
+          }
+        },
+        {
+          "group": "io.reactivex.rxjava2",
+          "module": "rxandroid",
+          "version": {
+            "requires": "2.1.1"
+          }
+        },
+        {
+          "group": "io.reactivex.rxjava2",
+          "module": "rxkotlin",
+          "version": {
+            "requires": "2.4.0"
+          }
+        },
+        {
+          "group": "com.squareup.retrofit2",
+          "module": "retrofit",
+          "version": {
+            "requires": "2.9.0"
+          }
+        },
+        {
+          "group": "com.squareup.retrofit2",
+          "module": "adapter-rxjava2",
+          "version": {
+            "requires": "2.9.0"
+          }
+        },
+        {
+          "group": "com.squareup.retrofit2",
+          "module": "converter-gson",
+          "version": {
+            "requires": "2.9.0"
+          }
+        },
+        {
+          "group": "com.github.tbruyelle",
+          "module": "rxpermissions",
+          "version": {
+            "requires": "0.11"
+          }
+        },
+        {
+          "group": "com.hwangjr.rxbus",
+          "module": "rxbus",
+          "version": {
+            "requires": "2.0.3"
+          }
+        },
+        {
+          "group": "com.github.ikidou",
+          "module": "TypeBuilder",
+          "version": {
+            "requires": "1.0"
+          }
+        },
+        {
+          "group": "com.github.AndroidStudioIst",
+          "module": "ProgressManager",
+          "version": {
+            "requires": "1.5.0_fix4"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.25"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "http-hingin-SNAPSHOT.aar",
+          "url": "http-hingin-SNAPSHOT.aar",
+          "size": 348071,
+          "sha512": "ed37fab6a338f0d4dd47748359cab5155851778ec26dc2dde50ecc658d0640431161270d748bce1a07cc3c902705c1b71b9045f353549ec162addb3d860cfb0f",
+          "sha256": "2a7c4a88da4c22889b472dde5055b6f29404092b00fad8d336f818185a3cc8d7",
+          "sha1": "34c42c62868f4b0ab14ef88b66525b32a9773c18",
+          "md5": "b00597f6179d601aab3c83213bb811ca"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.angcyo",
+          "module": "library",
+          "version": {
+            "requires": "hingin-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp",
+          "version": {
+            "requires": "4.11.0"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "logging-interceptor",
+          "version": {
+            "requires": "4.10.0"
+          }
+        },
+        {
+          "group": "io.reactivex.rxjava2",
+          "module": "rxjava",
+          "version": {
+            "requires": "2.2.21"
+          }
+        },
+        {
+          "group": "io.reactivex.rxjava2",
+          "module": "rxandroid",
+          "version": {
+            "requires": "2.1.1"
+          }
+        },
+        {
+          "group": "io.reactivex.rxjava2",
+          "module": "rxkotlin",
+          "version": {
+            "requires": "2.4.0"
+          }
+        },
+        {
+          "group": "com.squareup.retrofit2",
+          "module": "retrofit",
+          "version": {
+            "requires": "2.9.0"
+          }
+        },
+        {
+          "group": "com.squareup.retrofit2",
+          "module": "adapter-rxjava2",
+          "version": {
+            "requires": "2.9.0"
+          }
+        },
+        {
+          "group": "com.squareup.retrofit2",
+          "module": "converter-gson",
+          "version": {
+            "requires": "2.9.0"
+          }
+        },
+        {
+          "group": "com.github.tbruyelle",
+          "module": "rxpermissions",
+          "version": {
+            "requires": "0.11"
+          }
+        },
+        {
+          "group": "com.hwangjr.rxbus",
+          "module": "rxbus",
+          "version": {
+            "requires": "2.0.3"
+          }
+        },
+        {
+          "group": "com.github.ikidou",
+          "module": "TypeBuilder",
+          "version": {
+            "requires": "1.0"
+          }
+        },
+        {
+          "group": "com.github.AndroidStudioIst",
+          "module": "ProgressManager",
+          "version": {
+            "requires": "1.5.0_fix4"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.25"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "http-hingin-SNAPSHOT.aar",
+          "url": "http-hingin-SNAPSHOT.aar",
+          "size": 348071,
+          "sha512": "ed37fab6a338f0d4dd47748359cab5155851778ec26dc2dde50ecc658d0640431161270d748bce1a07cc3c902705c1b71b9045f353549ec162addb3d860cfb0f",
+          "sha256": "2a7c4a88da4c22889b472dde5055b6f29404092b00fad8d336f818185a3cc8d7",
+          "sha1": "34c42c62868f4b0ab14ef88b66525b32a9773c18",
+          "md5": "b00597f6179d601aab3c83213bb811ca"
+        }
+      ]
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "http-hingin-SNAPSHOT-sources.jar",
+          "url": "http-hingin-SNAPSHOT-sources.jar",
+          "size": 144419,
+          "sha512": "fb6d44efed17dc6f21ae97af3e43dc33352626e344c0dc6390c979ec91a3350ec622ab11b56c050af2f474eae5db20fec19f93a7a55501362c2e5cfa5cb3b4b4",
+          "sha256": "fbd6f908c36a5b7b6ffda2e78d6add8cc10186219225394e4d59a7dad779c3b3",
+          "sha1": "dc412d3748ef779aca0622a97b81cf7729c7cdee",
+          "md5": "3beee1e0b4496a01024e266a874e1a5b"
+        }
+      ]
+    }
+  ]
+}

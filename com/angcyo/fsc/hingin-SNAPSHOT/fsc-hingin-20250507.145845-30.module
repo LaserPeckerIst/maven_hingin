@@ -1,0 +1,145 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.angcyo",
+    "module": "fsc",
+    "version": "hingin-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.9"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.angcyo",
+          "module": "bluetooth",
+          "version": {
+            "requires": "hingin-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.angcyo",
+          "module": "websocket",
+          "version": {
+            "requires": "hingin-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.25"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "fsc-hingin-SNAPSHOT.aar",
+          "url": "fsc-hingin-SNAPSHOT.aar",
+          "size": 1172581,
+          "sha512": "d2bc6cacfcd44d8349001b0fa009e701069a658bf91b7ae7509c59deed739361ab3a0934e670f04b81609b2beac3507c029293ad236acc41c88695edd1e0e214",
+          "sha256": "ca43c30a99b2567df8f4d9d3d76adce7f45ce33fceb51eb5b71857680bbb984d",
+          "sha1": "62a3be8eb99799767fc5f63ee297a00c305b3db3",
+          "md5": "8fd75e84333fe868e6a78de00c62d64e"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.angcyo",
+          "module": "library",
+          "version": {
+            "requires": "hingin-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.angcyo",
+          "module": "core",
+          "version": {
+            "requires": "hingin-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.angcyo",
+          "module": "coroutine",
+          "version": {
+            "requires": "hingin-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.angcyo",
+          "module": "bluetooth",
+          "version": {
+            "requires": "hingin-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.angcyo",
+          "module": "websocket",
+          "version": {
+            "requires": "hingin-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.25"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "fsc-hingin-SNAPSHOT.aar",
+          "url": "fsc-hingin-SNAPSHOT.aar",
+          "size": 1172581,
+          "sha512": "d2bc6cacfcd44d8349001b0fa009e701069a658bf91b7ae7509c59deed739361ab3a0934e670f04b81609b2beac3507c029293ad236acc41c88695edd1e0e214",
+          "sha256": "ca43c30a99b2567df8f4d9d3d76adce7f45ce33fceb51eb5b71857680bbb984d",
+          "sha1": "62a3be8eb99799767fc5f63ee297a00c305b3db3",
+          "md5": "8fd75e84333fe868e6a78de00c62d64e"
+        }
+      ]
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "fsc-hingin-SNAPSHOT-sources.jar",
+          "url": "fsc-hingin-SNAPSHOT-sources.jar",
+          "size": 314901,
+          "sha512": "7a4994b3fe6b0d8bf42268d25fbc4adbfcf9a46d0c342888574b0c78e68c96c6508124d83cba739b161856cfbe907a03fec770fc0c2a57d61687cf6907fd270f",
+          "sha256": "92a73c25982a9bde03f588dd9fef3162afd67e69bb0a518fc8f80b511916e3a9",
+          "sha1": "e618ff536368c83fc811f55a2e1bdfcbfb047857",
+          "md5": "89800e48cc6abd3d4ab12df2deb75e0f"
+        }
+      ]
+    }
+  ]
+}

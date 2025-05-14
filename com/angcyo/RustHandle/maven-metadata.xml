@@ -3,13 +3,20 @@
   <groupId>com.angcyo</groupId>
   <artifactId>RustHandle</artifactId>
   <versioning>
-    <latest>250417</latest>
-    <release>250417</release>
+    <latest>hingin-SNAPSHOT</latest>
+    <release>25051404</release>
     <versions>
       <version>hingin-SNAPSHOT</version>
       <version>250409</version>
       <version>250417</version>
+      <version>250513</version>
+      <version>25051301</version>
+      <version>25051302</version>
+      <version>250514</version>
+      <version>25051401</version>
+      <version>25051403</version>
+      <version>25051404</version>
     </versions>
-    <lastUpdated>20250417091650</lastUpdated>
+    <lastUpdated>20250514063532</lastUpdated>
   </versioning>
 </metadata>
