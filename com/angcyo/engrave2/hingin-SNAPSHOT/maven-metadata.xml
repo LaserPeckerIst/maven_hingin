@@ -3,32 +3,32 @@
   <groupId>com.angcyo</groupId>
   <artifactId>engrave2</artifactId>
   <versioning>
-    <lastUpdated>20250630062200</lastUpdated>
+    <lastUpdated>20250701070056</lastUpdated>
     <snapshot>
-      <timestamp>20250630.062200</timestamp>
-      <buildNumber>55</buildNumber>
+      <timestamp>20250701.070056</timestamp>
+      <buildNumber>56</buildNumber>
     </snapshot>
     <snapshotVersions>
       <snapshotVersion>
         <classifier>sources</classifier>
         <extension>jar</extension>
-        <value>hingin-20250630.062200-55</value>
-        <updated>20250630062200</updated>
-      </snapshotVersion>
-      <snapshotVersion>
-        <extension>aar</extension>
-        <value>hingin-20250630.062200-55</value>
-        <updated>20250630062200</updated>
+        <value>hingin-20250701.070056-56</value>
+        <updated>20250701070056</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>module</extension>
-        <value>hingin-20250630.062200-55</value>
-        <updated>20250630062200</updated>
+        <value>hingin-20250701.070056-56</value>
+        <updated>20250701070056</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>aar</extension>
+        <value>hingin-20250701.070056-56</value>
+        <updated>20250701070056</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>hingin-20250630.062200-55</value>
-        <updated>20250630062200</updated>
+        <value>hingin-20250701.070056-56</value>
+        <updated>20250701070056</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>

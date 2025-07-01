@@ -3,32 +3,32 @@
   <groupId>com.angcyo</groupId>
   <artifactId>websocket</artifactId>
   <versioning>
-    <lastUpdated>20250630062200</lastUpdated>
+    <lastUpdated>20250701070056</lastUpdated>
     <snapshot>
-      <timestamp>20250630.062200</timestamp>
-      <buildNumber>57</buildNumber>
+      <timestamp>20250701.070056</timestamp>
+      <buildNumber>58</buildNumber>
     </snapshot>
     <snapshotVersions>
       <snapshotVersion>
-        <extension>aar</extension>
-        <value>hingin-20250630.062200-57</value>
-        <updated>20250630062200</updated>
+        <extension>module</extension>
+        <value>hingin-20250701.070056-58</value>
+        <updated>20250701070056</updated>
       </snapshotVersion>
       <snapshotVersion>
-        <extension>module</extension>
-        <value>hingin-20250630.062200-57</value>
-        <updated>20250630062200</updated>
+        <extension>aar</extension>
+        <value>hingin-20250701.070056-58</value>
+        <updated>20250701070056</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>sources</classifier>
         <extension>jar</extension>
-        <value>hingin-20250630.062200-57</value>
-        <updated>20250630062200</updated>
+        <value>hingin-20250701.070056-58</value>
+        <updated>20250701070056</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>pom</extension>
-        <value>hingin-20250630.062200-57</value>
-        <updated>20250630062200</updated>
+        <value>hingin-20250701.070056-58</value>
+        <updated>20250701070056</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
