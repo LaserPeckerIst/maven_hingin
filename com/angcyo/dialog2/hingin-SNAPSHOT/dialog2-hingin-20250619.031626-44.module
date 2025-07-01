@@ -1,0 +1,152 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.angcyo",
+    "module": "dialog2",
+    "version": "hingin-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.9"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.github.WaytoInc",
+          "module": "Android-PickerView",
+          "version": {
+            "requires": "4.1.0.10"
+          }
+        },
+        {
+          "group": "com.github.angcyo",
+          "module": "CalendarView",
+          "version": {
+            "requires": "3.7.1.42"
+          }
+        },
+        {
+          "group": "com.github.LaserPeckerIst",
+          "module": "ColorPicker",
+          "version": {
+            "requires": "1.1.0.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.25"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "dialog2-hingin-SNAPSHOT.aar",
+          "url": "dialog2-hingin-SNAPSHOT.aar",
+          "size": 212243,
+          "sha512": "1ef61a460f20e7f645996da33d5bdbe1c77fb706959bd66412fe21e2fd23d6dc829046ee5cd7e3c2cbdd42d4879ecd74cf76e006b4a9682adb2c50b75884eca7",
+          "sha256": "e726b5473215042106aeaa4b041b54a684ec407bcbb3efa353020e8384d22392",
+          "sha1": "b5631d1ecd2ba1792384d99c043de4cfbf4bf095",
+          "md5": "8bcd420c84101a8b0369b0f0e756019d"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.angcyo",
+          "module": "library",
+          "version": {
+            "requires": "hingin-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.angcyo",
+          "module": "dslitem",
+          "version": {
+            "requires": "hingin-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.github.WaytoInc",
+          "module": "Android-PickerView",
+          "version": {
+            "requires": "4.1.0.10"
+          }
+        },
+        {
+          "group": "com.github.angcyo",
+          "module": "CalendarView",
+          "version": {
+            "requires": "3.7.1.42"
+          }
+        },
+        {
+          "group": "com.github.LaserPeckerIst",
+          "module": "ColorPicker",
+          "version": {
+            "requires": "1.1.0.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.25"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "dialog2-hingin-SNAPSHOT.aar",
+          "url": "dialog2-hingin-SNAPSHOT.aar",
+          "size": 212243,
+          "sha512": "1ef61a460f20e7f645996da33d5bdbe1c77fb706959bd66412fe21e2fd23d6dc829046ee5cd7e3c2cbdd42d4879ecd74cf76e006b4a9682adb2c50b75884eca7",
+          "sha256": "e726b5473215042106aeaa4b041b54a684ec407bcbb3efa353020e8384d22392",
+          "sha1": "b5631d1ecd2ba1792384d99c043de4cfbf4bf095",
+          "md5": "8bcd420c84101a8b0369b0f0e756019d"
+        }
+      ]
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "dialog2-hingin-SNAPSHOT-sources.jar",
+          "url": "dialog2-hingin-SNAPSHOT-sources.jar",
+          "size": 71919,
+          "sha512": "67bb4b928ce69cd96e4382342e217ffe1ec05fdedcfd87c9700846468182f9bb5fb351fd5ef0eca4e6af038856a94690399c3027fef2d1ec07d70610b72120be",
+          "sha256": "41ed39d29f3c64b12a9cbe75e0c3fb6e4d34b274cca985a23b7e077b0b1d790a",
+          "sha1": "2a307a8398ae7240b50c5325aca6d77c908e9dfe",
+          "md5": "d876c5706b072d396e23c0d5b9d4b23a"
+        }
+      ]
+    }
+  ]
+}

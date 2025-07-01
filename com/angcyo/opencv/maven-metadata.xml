@@ -4,9 +4,12 @@
   <artifactId>opencv</artifactId>
   <versioning>
     <latest>hingin-SNAPSHOT</latest>
+    <release>2025052402</release>
     <versions>
       <version>hingin-SNAPSHOT</version>
+      <version>20250524</version>
+      <version>2025052402</version>
     </versions>
-    <lastUpdated>20250327025351</lastUpdated>
+    <lastUpdated>20250524031526</lastUpdated>
   </versioning>
 </metadata>

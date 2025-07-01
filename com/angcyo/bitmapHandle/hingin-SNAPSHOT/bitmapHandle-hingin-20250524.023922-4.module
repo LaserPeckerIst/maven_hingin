@@ -1,0 +1,96 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.angcyo",
+    "module": "bitmapHandle",
+    "version": "hingin-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.9"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.24"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "bitmapHandle-hingin-SNAPSHOT.aar",
+          "url": "bitmapHandle-hingin-SNAPSHOT.aar",
+          "size": 1277423,
+          "sha512": "eaa6e063683c9da13501ec5fdabfa60d81512635b4c592cc4372350a906dcaf26787886f8ffe59698fe85c5a3b13441bdce7eb34a1306318232c0f1afe6205f5",
+          "sha256": "acdc969009cd886d22d934c0f66dadb777c81b8871a17bff8aab5433e8624777",
+          "sha1": "d92ca39e096e1f719561f77f254a3f8dc67e9a67",
+          "md5": "7dfaa3d88d6e009031f3795c5c69bd6d"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.24"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "bitmapHandle-hingin-SNAPSHOT.aar",
+          "url": "bitmapHandle-hingin-SNAPSHOT.aar",
+          "size": 1277423,
+          "sha512": "eaa6e063683c9da13501ec5fdabfa60d81512635b4c592cc4372350a906dcaf26787886f8ffe59698fe85c5a3b13441bdce7eb34a1306318232c0f1afe6205f5",
+          "sha256": "acdc969009cd886d22d934c0f66dadb777c81b8871a17bff8aab5433e8624777",
+          "sha1": "d92ca39e096e1f719561f77f254a3f8dc67e9a67",
+          "md5": "7dfaa3d88d6e009031f3795c5c69bd6d"
+        }
+      ]
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "bitmapHandle-hingin-SNAPSHOT-sources.jar",
+          "url": "bitmapHandle-hingin-SNAPSHOT-sources.jar",
+          "size": 8031,
+          "sha512": "af818ccfe168120867e45cbed163ed4e2342197b1293a7451c1dd78c891cdcc81c750b88f3143e8a412b60cf1c6bc04b680a37faa61711c8cfd0905948e087eb",
+          "sha256": "60c8e5e41a6cd85f3ed204e7cfffb5d2992d2c2a96b211c11a5da0d904e51618",
+          "sha1": "0f936c5356a22ca82a662a6707c6ad571c2bbb2c",
+          "md5": "63534e2f45ba8b09c56756d6bb91913d"
+        }
+      ]
+    }
+  ]
+}

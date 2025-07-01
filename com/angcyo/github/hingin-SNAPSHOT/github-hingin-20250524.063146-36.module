@@ -1,0 +1,194 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.angcyo",
+    "module": "github",
+    "version": "hingin-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.9"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.angcyo",
+          "module": "bus",
+          "version": {
+            "requires": "hingin-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.github.angcyo",
+          "module": "ViewPagerLayoutManager",
+          "version": {
+            "requires": "2.1.3"
+          }
+        },
+        {
+          "group": "com.github.XHGInc",
+          "module": "FloatWindow",
+          "version": {
+            "requires": "1.0.9.5"
+          }
+        },
+        {
+          "group": "androidx.palette",
+          "module": "palette-ktx",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "androidx.biometric",
+          "module": "biometric",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "com.github.angcyo",
+          "module": "ColorPicker",
+          "version": {
+            "requires": "1.1.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.25"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "github-hingin-SNAPSHOT.aar",
+          "url": "github-hingin-SNAPSHOT.aar",
+          "size": 151143,
+          "sha512": "1e4da42cdfc734dfce6c4ea55733430befaa720fb67a9cea1a1ac2f0479d28e88eaa60d8bac30091f7a193b4b8c72140ec99fb9392005f3b2b4875ecb46114d9",
+          "sha256": "8a37115ce633e5778e3994b3e7a2da725148a4b95af671bd16c8bb638b9ba592",
+          "sha1": "32b6a5033bae066280fc009accbf24089c409740",
+          "md5": "cf1ea233ad8bd7d3c99d81fb25ec4331"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.angcyo",
+          "module": "library",
+          "version": {
+            "requires": "hingin-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.angcyo",
+          "module": "dslitem",
+          "version": {
+            "requires": "hingin-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.angcyo",
+          "module": "bus",
+          "version": {
+            "requires": "hingin-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.github.angcyo",
+          "module": "ViewPagerLayoutManager",
+          "version": {
+            "requires": "2.1.3"
+          }
+        },
+        {
+          "group": "com.github.XHGInc",
+          "module": "FloatWindow",
+          "version": {
+            "requires": "1.0.9.5"
+          }
+        },
+        {
+          "group": "androidx.palette",
+          "module": "palette-ktx",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "androidx.biometric",
+          "module": "biometric",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "com.github.angcyo",
+          "module": "ColorPicker",
+          "version": {
+            "requires": "1.1.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.25"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "github-hingin-SNAPSHOT.aar",
+          "url": "github-hingin-SNAPSHOT.aar",
+          "size": 151143,
+          "sha512": "1e4da42cdfc734dfce6c4ea55733430befaa720fb67a9cea1a1ac2f0479d28e88eaa60d8bac30091f7a193b4b8c72140ec99fb9392005f3b2b4875ecb46114d9",
+          "sha256": "8a37115ce633e5778e3994b3e7a2da725148a4b95af671bd16c8bb638b9ba592",
+          "sha1": "32b6a5033bae066280fc009accbf24089c409740",
+          "md5": "cf1ea233ad8bd7d3c99d81fb25ec4331"
+        }
+      ]
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "github-hingin-SNAPSHOT-sources.jar",
+          "url": "github-hingin-SNAPSHOT-sources.jar",
+          "size": 76343,
+          "sha512": "bc2334937b95328adc7d4a87c42d47b7a8e6ec7254e2496625c2f0ce0f4227a3e24daadacecde954ed67dd999845d6d198bfb4a1eb58a7942e51374fd2d55458",
+          "sha256": "dfcb8cda8c9b0661f46a54bcdf692ee6867cc7aca7b313ba4e691a84a9e80793",
+          "sha1": "3be5d61251853d37bf192e7a8f4957f1b93e8fb6",
+          "md5": "3b1c9248a20d22bd48bf7b337048b45c"
+        }
+      ]
+    }
+  ]
+}

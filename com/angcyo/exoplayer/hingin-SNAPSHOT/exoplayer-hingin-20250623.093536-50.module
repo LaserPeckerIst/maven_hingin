@@ -1,0 +1,187 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.angcyo",
+    "module": "exoplayer",
+    "version": "hingin-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.9"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.media3",
+          "module": "media3-common",
+          "version": {
+            "requires": "1.0.1"
+          }
+        },
+        {
+          "group": "androidx.media3",
+          "module": "media3-exoplayer",
+          "version": {
+            "requires": "1.0.1"
+          }
+        },
+        {
+          "group": "androidx.media3",
+          "module": "media3-ui",
+          "version": {
+            "requires": "1.0.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.25"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "exoplayer-hingin-SNAPSHOT.aar",
+          "url": "exoplayer-hingin-SNAPSHOT.aar",
+          "size": 75843,
+          "sha512": "be71ba5a30b8cb027c33a07be3622fd5b8052ac20767c01b3903dc9d7fca446f3ef34b91ce856e031d2423280fb100ea62f22c8f7fb94888cf3b18c80cd15e30",
+          "sha256": "9a16d3b5f635b8d981c87699ea72f8acf558538db7c65447f3fb93188c016113",
+          "sha1": "00310d472acddaf5afb26a974c003a00afefa236",
+          "md5": "83e978eb6d2cabfa3a2a5938c613fe88"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.angcyo",
+          "module": "library",
+          "version": {
+            "requires": "hingin-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.angcyo",
+          "module": "fragment",
+          "version": {
+            "requires": "hingin-SNAPSHOT"
+          }
+        },
+        {
+          "group": "androidx.media3",
+          "module": "media3-database",
+          "version": {
+            "requires": "1.0.1"
+          }
+        },
+        {
+          "group": "androidx.media3",
+          "module": "media3-decoder",
+          "version": {
+            "requires": "1.0.1"
+          }
+        },
+        {
+          "group": "androidx.media3",
+          "module": "media3-extractor",
+          "version": {
+            "requires": "1.0.1"
+          }
+        },
+        {
+          "group": "androidx.media3",
+          "module": "media3-datasource",
+          "version": {
+            "requires": "1.0.1"
+          }
+        },
+        {
+          "group": "androidx.media3",
+          "module": "media3-datasource-cronet",
+          "version": {
+            "requires": "1.0.1"
+          }
+        },
+        {
+          "group": "androidx.media3",
+          "module": "media3-common",
+          "version": {
+            "requires": "1.0.1"
+          }
+        },
+        {
+          "group": "androidx.media3",
+          "module": "media3-exoplayer",
+          "version": {
+            "requires": "1.0.1"
+          }
+        },
+        {
+          "group": "androidx.media3",
+          "module": "media3-ui",
+          "version": {
+            "requires": "1.0.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.25"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "exoplayer-hingin-SNAPSHOT.aar",
+          "url": "exoplayer-hingin-SNAPSHOT.aar",
+          "size": 75843,
+          "sha512": "be71ba5a30b8cb027c33a07be3622fd5b8052ac20767c01b3903dc9d7fca446f3ef34b91ce856e031d2423280fb100ea62f22c8f7fb94888cf3b18c80cd15e30",
+          "sha256": "9a16d3b5f635b8d981c87699ea72f8acf558538db7c65447f3fb93188c016113",
+          "sha1": "00310d472acddaf5afb26a974c003a00afefa236",
+          "md5": "83e978eb6d2cabfa3a2a5938c613fe88"
+        }
+      ]
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "exoplayer-hingin-SNAPSHOT-sources.jar",
+          "url": "exoplayer-hingin-SNAPSHOT-sources.jar",
+          "size": 23601,
+          "sha512": "41d5519f2aed2fd7280f5c94c18e2935b1a5a338874cc16d18cfe45edcfc51ee760060576260c347d40be677790e8b19e524589a61e767f6df86c1ac36d93607",
+          "sha256": "27e61242ab0fbb5388a2dd702c548711716e73d6b4aff674ff6a3e1db5f507c6",
+          "sha1": "01bc7b8e904148f33e023b97e14c7cfa1a11d64a",
+          "md5": "8b86583dd05477239eaffad9a6451fce"
+        }
+      ]
+    }
+  ]
+}

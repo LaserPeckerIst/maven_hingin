@@ -1,0 +1,117 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.angcyo",
+    "module": "media",
+    "version": "hingin-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.9"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.25"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "media-hingin-SNAPSHOT.aar",
+          "url": "media-hingin-SNAPSHOT.aar",
+          "size": 134229,
+          "sha512": "374593782f93529dc0cf27cd34105882f34653b68f9e8797b4195f81b48efbc670bc1c639937c1326e52ae7b7995417c56f59447f6d11431e054748a9cda3513",
+          "sha256": "d96e84e5b647e0ad77a86834fadd035a24fe4ac33f10619c0d60f10d29c98b47",
+          "sha1": "f7243560b6d4ca031af5639c08c9626e063cee43",
+          "md5": "89e4467d757f1b6946137f7c4163af09"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.angcyo",
+          "module": "dslitem",
+          "version": {
+            "requires": "hingin-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.angcyo",
+          "module": "download",
+          "version": {
+            "requires": "hingin-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.angcyo",
+          "module": "glide",
+          "version": {
+            "requires": "hingin-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.25"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "media-hingin-SNAPSHOT.aar",
+          "url": "media-hingin-SNAPSHOT.aar",
+          "size": 134229,
+          "sha512": "374593782f93529dc0cf27cd34105882f34653b68f9e8797b4195f81b48efbc670bc1c639937c1326e52ae7b7995417c56f59447f6d11431e054748a9cda3513",
+          "sha256": "d96e84e5b647e0ad77a86834fadd035a24fe4ac33f10619c0d60f10d29c98b47",
+          "sha1": "f7243560b6d4ca031af5639c08c9626e063cee43",
+          "md5": "89e4467d757f1b6946137f7c4163af09"
+        }
+      ]
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "media-hingin-SNAPSHOT-sources.jar",
+          "url": "media-hingin-SNAPSHOT-sources.jar",
+          "size": 42437,
+          "sha512": "ff1971ab58aac0969fa58e61a18e61f2b5816b5482caacff6fbde37e81780f41ee7e4ed9ef7c6dbad755cf8da11b99ab418dc2275cd751ca59aa97f36a653598",
+          "sha256": "b70f3018bf5df78024f5d3c8c7d5d4049a1a01fbd96a7c46f6600bd27b35892c",
+          "sha1": "c6a0f8452de56032d55a820caa0f96a66c7cf7ea",
+          "md5": "3ea5df5b8821c5d14d35a60c41662a3c"
+        }
+      ]
+    }
+  ]
+}
