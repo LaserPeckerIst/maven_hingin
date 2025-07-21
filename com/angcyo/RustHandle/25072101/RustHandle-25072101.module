@@ -1,0 +1,96 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.angcyo",
+    "module": "RustHandle",
+    "version": "25072101",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.9"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.24"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "RustHandle-25072101.aar",
+          "url": "RustHandle-25072101.aar",
+          "size": 3550976,
+          "sha512": "ecff055579704177adeda1b0221d45adaf056bfd82e0f99b9dfd02eeeec88407c18c189cdcf28341fb5e4c92b406329306987b44b246fe86ce7b9d94acd086cb",
+          "sha256": "4f42d48721e4e2bf543469271ddcf437c98b2c9b1daa73c10909dd14a4cebc0b",
+          "sha1": "9b373bb4e61c40feb35c9c723ff99703a22be079",
+          "md5": "c1ada5fe200f3510415907eecb2cc584"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.24"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "RustHandle-25072101.aar",
+          "url": "RustHandle-25072101.aar",
+          "size": 3550976,
+          "sha512": "ecff055579704177adeda1b0221d45adaf056bfd82e0f99b9dfd02eeeec88407c18c189cdcf28341fb5e4c92b406329306987b44b246fe86ce7b9d94acd086cb",
+          "sha256": "4f42d48721e4e2bf543469271ddcf437c98b2c9b1daa73c10909dd14a4cebc0b",
+          "sha1": "9b373bb4e61c40feb35c9c723ff99703a22be079",
+          "md5": "c1ada5fe200f3510415907eecb2cc584"
+        }
+      ]
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "RustHandle-25072101-sources.jar",
+          "url": "RustHandle-25072101-sources.jar",
+          "size": 8597,
+          "sha512": "350fddc9505c92973be3024bf4792db02854044177bb15075e84101538537fe6dd3cc5cbf64c40d62f580679dd242d4646bebfa2609f78cad65711d550df42ea",
+          "sha256": "a963ad1b063620b5514f79d92747ee1d316cc9910201135ba66ac048a972ae9b",
+          "sha1": "0d74f414e56b2f40cbaf32fa9884fe59708a8e8e",
+          "md5": "a4304d44c3be114638ac5b8475af06cd"
+        }
+      ]
+    }
+  ]
+}

@@ -3,32 +3,32 @@
   <groupId>com.angcyo</groupId>
   <artifactId>RustHandle</artifactId>
   <versioning>
-    <lastUpdated>20250514063530</lastUpdated>
+    <lastUpdated>20250721090247</lastUpdated>
     <snapshot>
-      <timestamp>20250514.063530</timestamp>
-      <buildNumber>12</buildNumber>
+      <timestamp>20250721.090247</timestamp>
+      <buildNumber>13</buildNumber>
     </snapshot>
     <snapshotVersions>
       <snapshotVersion>
-        <extension>pom</extension>
-        <value>hingin-20250514.063530-12</value>
-        <updated>20250514063530</updated>
-      </snapshotVersion>
-      <snapshotVersion>
-        <extension>module</extension>
-        <value>hingin-20250514.063530-12</value>
-        <updated>20250514063530</updated>
-      </snapshotVersion>
-      <snapshotVersion>
         <classifier>sources</classifier>
         <extension>jar</extension>
-        <value>hingin-20250514.063530-12</value>
-        <updated>20250514063530</updated>
+        <value>hingin-20250721.090247-13</value>
+        <updated>20250721090247</updated>
       </snapshotVersion>
       <snapshotVersion>
         <extension>aar</extension>
-        <value>hingin-20250514.063530-12</value>
-        <updated>20250514063530</updated>
+        <value>hingin-20250721.090247-13</value>
+        <updated>20250721090247</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>hingin-20250721.090247-13</value>
+        <updated>20250721090247</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>module</extension>
+        <value>hingin-20250721.090247-13</value>
+        <updated>20250721090247</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>
