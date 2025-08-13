@@ -3,6 +3,10 @@
 ```diff
 + maven { url "https://gitlab.com/angcyo/maven_hingin/-/raw/main" }
 + maven { setUrl("https://gitlab.com/angcyo/maven_hingin/-/raw/main") }
+
++ maven { url "https://raw.githubusercontent.com/LaserPeckerIst/maven_hingin/refs/heads/main" }
++ maven { setUrl("https://raw.githubusercontent.com/LaserPeckerIst/maven_hingin/refs/heads/main") }
+
 ```
 
 ## Getting started
