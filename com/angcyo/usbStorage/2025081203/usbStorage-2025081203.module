@@ -1,0 +1,124 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.angcyo",
+    "module": "usbStorage",
+    "version": "2025081203",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.9"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "me.jahnen.libaums",
+          "module": "core",
+          "version": {
+            "requires": "0.10.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.25"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "usbStorage-2025081203.aar",
+          "url": "usbStorage-2025081203.aar",
+          "size": 129920,
+          "sha512": "30bfe5bb727c60e4f46c1feee089c796758b28449cda3b26e9402d1930a20859e4be94af29f032e876d80d81e2e98bf00d04c3342a0e2255bf2e59cdd92559c0",
+          "sha256": "4dcfb91088b3ffb0b657ee697e6138b1b035a2e956dfc11f528213cc133ed059",
+          "sha1": "cefa32682bd71e930ae51186ab1f6e9eae15e7b1",
+          "md5": "ec5d57ff2d5662e4b019674d91b6a155"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.angcyo",
+          "module": "library",
+          "version": {
+            "requires": "2025081203"
+          }
+        },
+        {
+          "group": "com.angcyo",
+          "module": "core",
+          "version": {
+            "requires": "2025081203"
+          }
+        },
+        {
+          "group": "me.jahnen.libaums",
+          "module": "core",
+          "version": {
+            "requires": "0.10.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.25"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "usbStorage-2025081203.aar",
+          "url": "usbStorage-2025081203.aar",
+          "size": 129920,
+          "sha512": "30bfe5bb727c60e4f46c1feee089c796758b28449cda3b26e9402d1930a20859e4be94af29f032e876d80d81e2e98bf00d04c3342a0e2255bf2e59cdd92559c0",
+          "sha256": "4dcfb91088b3ffb0b657ee697e6138b1b035a2e956dfc11f528213cc133ed059",
+          "sha1": "cefa32682bd71e930ae51186ab1f6e9eae15e7b1",
+          "md5": "ec5d57ff2d5662e4b019674d91b6a155"
+        }
+      ]
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "usbStorage-2025081203-sources.jar",
+          "url": "usbStorage-2025081203-sources.jar",
+          "size": 20701,
+          "sha512": "2a86a06b639c8fe1c23b5829175405d4cc4afbc82aa44c8538837daa502197ed74fd3612a42202b88964a781e84c98dc15ffbc192696da560f537c178cd9cca5",
+          "sha256": "0c9d3d5c657b59b104a996a0a393cb2240202c76e292b9bb982ed8b17857f143",
+          "sha1": "62f317d3e9805bc832e2f8848a4d63e24fc3668b",
+          "md5": "ffa0296cc5552bc1d3195530d98d742c"
+        }
+      ]
+    }
+  ]
+}

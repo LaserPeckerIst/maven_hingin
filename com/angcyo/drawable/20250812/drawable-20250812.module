@@ -1,0 +1,103 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.angcyo",
+    "module": "drawable",
+    "version": "20250812",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.9"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.25"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "drawable-20250812.aar",
+          "url": "drawable-20250812.aar",
+          "size": 215989,
+          "sha512": "18e46486345516bd559a8fff1bb149111410c908b3e8a8cfe7df918f1f0005e017761e2bc37a845f9863f298c5696e37bd37aff9e015367dcb06eac86bbd70a9",
+          "sha256": "d32be782937039c5b73fe95b05828e9f88bab505cb49075e2f2a3dc943fbf9af",
+          "sha1": "bd27e5d2b9d041b742e1c6500e52173a55b67b98",
+          "md5": "38d824c1caf2697a9494f9f93d31fd8b"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.angcyo",
+          "module": "library",
+          "version": {
+            "requires": "20250812"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.25"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "drawable-20250812.aar",
+          "url": "drawable-20250812.aar",
+          "size": 215989,
+          "sha512": "18e46486345516bd559a8fff1bb149111410c908b3e8a8cfe7df918f1f0005e017761e2bc37a845f9863f298c5696e37bd37aff9e015367dcb06eac86bbd70a9",
+          "sha256": "d32be782937039c5b73fe95b05828e9f88bab505cb49075e2f2a3dc943fbf9af",
+          "sha1": "bd27e5d2b9d041b742e1c6500e52173a55b67b98",
+          "md5": "38d824c1caf2697a9494f9f93d31fd8b"
+        }
+      ]
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "drawable-20250812-sources.jar",
+          "url": "drawable-20250812-sources.jar",
+          "size": 108681,
+          "sha512": "81aec7a93e3d3875bb9961ec76be27f4e317d70c44867e688cf9c101a8893bcd8bcb56da569f255bfd3e3fe438d28f27226950e334ea054d67f2347c12692bf5",
+          "sha256": "31b91ec7621cc00a90354ee175017ecfb112ac2cc98ef32f1ffe038f2e90bead",
+          "sha1": "ad4a1dff32bdff62f83103976e6d1a2978172940",
+          "md5": "d72c6edad52ff594759e3c18fb38d462"
+        }
+      ]
+    }
+  ]
+}

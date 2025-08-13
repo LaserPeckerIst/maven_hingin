@@ -1,0 +1,173 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.angcyo",
+    "module": "picker",
+    "version": "2025081202",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.9"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.angcyo",
+          "module": "viewmodel",
+          "version": {
+            "requires": "2025081202"
+          }
+        },
+        {
+          "group": "UICoreDemo.UICore",
+          "module": "camera",
+          "version": {
+            "requires": "unspecified"
+          }
+        },
+        {
+          "group": "com.angcyo",
+          "module": "pager",
+          "version": {
+            "requires": "2025081202"
+          }
+        },
+        {
+          "group": "androidx.loader",
+          "module": "loader",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.25"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "picker-2025081202.aar",
+          "url": "picker-2025081202.aar",
+          "size": 353041,
+          "sha512": "ade455b671671dcfe48940f2bd6ebb2452baf76a00826ef0eab505357cf7405d57710f7c00329310425a5b4af87e886d7a0edfcd100677fe5b3b2d4b3f70f131",
+          "sha256": "fab35199776e0d7647d903f5b234afdcadfca152dfb955fd8bb411406cd600c1",
+          "sha1": "94bbf9d63c350ae3241f334872c5fc3392cf1592",
+          "md5": "0ec64c7d69fd2c61b9725b78ca0b980e"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-parcelize-runtime",
+          "version": {
+            "requires": "1.9.25"
+          }
+        },
+        {
+          "group": "com.angcyo",
+          "module": "record",
+          "version": {
+            "requires": "2025081202"
+          }
+        },
+        {
+          "group": "com.github.yalantis",
+          "module": "ucrop",
+          "version": {
+            "requires": "2.2.8"
+          }
+        },
+        {
+          "group": "com.angcyo",
+          "module": "viewmodel",
+          "version": {
+            "requires": "2025081202"
+          }
+        },
+        {
+          "group": "UICoreDemo.UICore",
+          "module": "camera",
+          "version": {
+            "requires": "unspecified"
+          }
+        },
+        {
+          "group": "com.angcyo",
+          "module": "pager",
+          "version": {
+            "requires": "2025081202"
+          }
+        },
+        {
+          "group": "androidx.loader",
+          "module": "loader",
+          "version": {
+            "requires": "1.1.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.25"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "picker-2025081202.aar",
+          "url": "picker-2025081202.aar",
+          "size": 353041,
+          "sha512": "ade455b671671dcfe48940f2bd6ebb2452baf76a00826ef0eab505357cf7405d57710f7c00329310425a5b4af87e886d7a0edfcd100677fe5b3b2d4b3f70f131",
+          "sha256": "fab35199776e0d7647d903f5b234afdcadfca152dfb955fd8bb411406cd600c1",
+          "sha1": "94bbf9d63c350ae3241f334872c5fc3392cf1592",
+          "md5": "0ec64c7d69fd2c61b9725b78ca0b980e"
+        }
+      ]
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "picker-2025081202-sources.jar",
+          "url": "picker-2025081202-sources.jar",
+          "size": 80739,
+          "sha512": "30e92badb8c027026e54fe36d59394017ef98f0b078a54470e4b5b6aec1b672073cdedd547051689df8fc90473a2bbbdb42aac5b0be35391b2cf5a68a23d85f2",
+          "sha256": "983c65a8bfc4789e0ca5dbd67583668a4a830eb1de15ff81d21b27adf608bad3",
+          "sha1": "7303227b3b22fd540d8be3e8e2698a00fb150641",
+          "md5": "331d5e7617817453c98cf2abcfccdaba"
+        }
+      ]
+    }
+  ]
+}

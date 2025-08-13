@@ -3,32 +3,32 @@
   <groupId>com.angcyo</groupId>
   <artifactId>canvas2_lp</artifactId>
   <versioning>
-    <lastUpdated>20250721093243</lastUpdated>
+    <lastUpdated>20250813041535</lastUpdated>
     <snapshot>
-      <timestamp>20250721.093243</timestamp>
-      <buildNumber>65</buildNumber>
+      <timestamp>20250813.041535</timestamp>
+      <buildNumber>80</buildNumber>
     </snapshot>
     <snapshotVersions>
       <snapshotVersion>
         <extension>aar</extension>
-        <value>hingin-20250721.093243-65</value>
-        <updated>20250721093243</updated>
+        <value>hingin-20250813.041535-80</value>
+        <updated>20250813041535</updated>
       </snapshotVersion>
       <snapshotVersion>
-        <extension>module</extension>
-        <value>hingin-20250721.093243-65</value>
-        <updated>20250721093243</updated>
+        <extension>pom</extension>
+        <value>hingin-20250813.041535-80</value>
+        <updated>20250813041535</updated>
       </snapshotVersion>
       <snapshotVersion>
         <classifier>sources</classifier>
         <extension>jar</extension>
-        <value>hingin-20250721.093243-65</value>
-        <updated>20250721093243</updated>
+        <value>hingin-20250813.041535-80</value>
+        <updated>20250813041535</updated>
       </snapshotVersion>
       <snapshotVersion>
-        <extension>pom</extension>
-        <value>hingin-20250721.093243-65</value>
-        <updated>20250721093243</updated>
+        <extension>module</extension>
+        <value>hingin-20250813.041535-80</value>
+        <updated>20250813041535</updated>
       </snapshotVersion>
     </snapshotVersions>
   </versioning>

@@ -1,0 +1,138 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.angcyo",
+    "module": "transition",
+    "version": "2025081203",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.9"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.transition",
+          "module": "transition-ktx",
+          "version": {
+            "requires": "1.4.1"
+          }
+        },
+        {
+          "group": "androidx.interpolator",
+          "module": "interpolator",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.25"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "transition-2025081203.aar",
+          "url": "transition-2025081203.aar",
+          "size": 36395,
+          "sha512": "dea2ba6163e720c67b7193070868deaf001a49b2f8937bea3607a1f9d77f62d24615cc9fe3befeb2881cd5ec66bdea22ff750d836c024436e68239a0cde23208",
+          "sha256": "dd41fc74279314b3ce996b9655b846bc5150c4caab17030e77317998949f7df7",
+          "sha1": "e1813f3daed8ee0e6c609fa019fe174029a49a1c",
+          "md5": "5524dd352a639aa7c9fc8a9bc6bdaece"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.angcyo",
+          "module": "library",
+          "version": {
+            "requires": "2025081203"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.10.1"
+          }
+        },
+        {
+          "group": "androidx.transition",
+          "module": "transition-ktx",
+          "version": {
+            "requires": "1.4.1"
+          }
+        },
+        {
+          "group": "androidx.interpolator",
+          "module": "interpolator",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.25"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "transition-2025081203.aar",
+          "url": "transition-2025081203.aar",
+          "size": 36395,
+          "sha512": "dea2ba6163e720c67b7193070868deaf001a49b2f8937bea3607a1f9d77f62d24615cc9fe3befeb2881cd5ec66bdea22ff750d836c024436e68239a0cde23208",
+          "sha256": "dd41fc74279314b3ce996b9655b846bc5150c4caab17030e77317998949f7df7",
+          "sha1": "e1813f3daed8ee0e6c609fa019fe174029a49a1c",
+          "md5": "5524dd352a639aa7c9fc8a9bc6bdaece"
+        }
+      ]
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "transition-2025081203-sources.jar",
+          "url": "transition-2025081203-sources.jar",
+          "size": 7425,
+          "sha512": "438f41130a6bc1b90bdb290e6a8ab1269743ead65a97ad68124c56264e822a6fb00171e475b8ffd3f9626baf214084017e3c83e78fe9b6438458b0e476c19e09",
+          "sha256": "8cbdb995b99b487e345582c501bc7df4d56e4a5e247caebdf48acbc4edd04f92",
+          "sha1": "c5700492c38e6ef71517e7680517c7a64b243f12",
+          "md5": "a6bd6dd96e389b1fec7f8b90193a1115"
+        }
+      ]
+    }
+  ]
+}

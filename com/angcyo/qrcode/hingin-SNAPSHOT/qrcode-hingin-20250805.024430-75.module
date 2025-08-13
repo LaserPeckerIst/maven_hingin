@@ -1,0 +1,117 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.angcyo",
+    "module": "qrcode",
+    "version": "hingin-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.9"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.github.angcyo",
+          "module": "QrCodeZxingZbar",
+          "version": {
+            "requires": "1.1.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.25"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "qrcode-hingin-SNAPSHOT.aar",
+          "url": "qrcode-hingin-SNAPSHOT.aar",
+          "size": 121899,
+          "sha512": "17990b0d1b1904bcaff51999951ccd8ef39a84ec45332ba9baff3f7e0a2f4e027d314081b34012fe128479cde3602b19e4f7f1f9a4d6c84f77b3b9615e455a28",
+          "sha256": "24130edc48ac71e6584c4d44232f40b93549fdc05f37b198eebebefe117dec01",
+          "sha1": "fb85f5c5b96c57588ba2cb7b74df5cf8fc1ae624",
+          "md5": "f112a7b12f0638727a3c55245bfb38e8"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.angcyo",
+          "module": "fragment",
+          "version": {
+            "requires": "hingin-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.github.angcyo",
+          "module": "QrCodeZxingZbar",
+          "version": {
+            "requires": "1.1.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.25"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "qrcode-hingin-SNAPSHOT.aar",
+          "url": "qrcode-hingin-SNAPSHOT.aar",
+          "size": 121899,
+          "sha512": "17990b0d1b1904bcaff51999951ccd8ef39a84ec45332ba9baff3f7e0a2f4e027d314081b34012fe128479cde3602b19e4f7f1f9a4d6c84f77b3b9615e455a28",
+          "sha256": "24130edc48ac71e6584c4d44232f40b93549fdc05f37b198eebebefe117dec01",
+          "sha1": "fb85f5c5b96c57588ba2cb7b74df5cf8fc1ae624",
+          "md5": "f112a7b12f0638727a3c55245bfb38e8"
+        }
+      ]
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "qrcode-hingin-SNAPSHOT-sources.jar",
+          "url": "qrcode-hingin-SNAPSHOT-sources.jar",
+          "size": 36885,
+          "sha512": "7581cd29c0ebceb763b6d468e488a529b234e7741bb4e53be72541189351e1f3d262ae6cbd8bec184eeace2a6c42d653da9d14daa414e3b28bb7460b02feec1e",
+          "sha256": "0237f40c19e05e43d5426e63e84c12c201f015a127e8c069fc7e0e0ee4a76be1",
+          "sha1": "471e36f61614c840b20ae26b3c50eba0628a57d6",
+          "md5": "a2eb93562d21e551158b8dce3ee04c40"
+        }
+      ]
+    }
+  ]
+}

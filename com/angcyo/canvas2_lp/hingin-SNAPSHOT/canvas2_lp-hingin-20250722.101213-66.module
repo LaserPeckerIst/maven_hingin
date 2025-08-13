@@ -1,0 +1,187 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.angcyo",
+    "module": "canvas2_lp",
+    "version": "hingin-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.9"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.angcyo",
+          "module": "dialog2",
+          "version": {
+            "requires": "hingin-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.angcyo",
+          "module": "canvas2",
+          "version": {
+            "requires": "hingin-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.25"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "canvas2_lp-hingin-SNAPSHOT.aar",
+          "url": "canvas2_lp-hingin-SNAPSHOT.aar",
+          "size": 7240782,
+          "sha512": "049458f3af3013a0bdf0ec0245b902075194bcb71206d5110c6f974b9c46993ea5ba217a67a0c7ca27910b4f9fefa7531520d02d320914bd2dca277ae94731fb",
+          "sha256": "57d491a44b63f5269e8f643087830308d24191e23c992499f734bc3b6a0be965",
+          "sha1": "3e8b638f8a765868db49ed8e30f5948204827d94",
+          "md5": "eca108ba1bcdacecfec20ea6a8e89944"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.angcyo",
+          "module": "dslitem",
+          "version": {
+            "requires": "hingin-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.angcyo",
+          "module": "dialog",
+          "version": {
+            "requires": "hingin-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.angcyo",
+          "module": "engrave2",
+          "version": {
+            "requires": "hingin-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.angcyo",
+          "module": "component",
+          "version": {
+            "requires": "hingin-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.angcyo",
+          "module": "doodle",
+          "version": {
+            "requires": "hingin-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.angcyo",
+          "module": "crop",
+          "version": {
+            "requires": "hingin-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.angcyo",
+          "module": "qrcode",
+          "version": {
+            "requires": "hingin-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.angcyo",
+          "module": "path",
+          "version": {
+            "requires": "hingin-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.angcyo",
+          "module": "usbStorage",
+          "version": {
+            "requires": "hingin-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.angcyo",
+          "module": "dialog2",
+          "version": {
+            "requires": "hingin-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.angcyo",
+          "module": "canvas2",
+          "version": {
+            "requires": "hingin-SNAPSHOT"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.25"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "canvas2_lp-hingin-SNAPSHOT.aar",
+          "url": "canvas2_lp-hingin-SNAPSHOT.aar",
+          "size": 7240782,
+          "sha512": "049458f3af3013a0bdf0ec0245b902075194bcb71206d5110c6f974b9c46993ea5ba217a67a0c7ca27910b4f9fefa7531520d02d320914bd2dca277ae94731fb",
+          "sha256": "57d491a44b63f5269e8f643087830308d24191e23c992499f734bc3b6a0be965",
+          "sha1": "3e8b638f8a765868db49ed8e30f5948204827d94",
+          "md5": "eca108ba1bcdacecfec20ea6a8e89944"
+        }
+      ]
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "canvas2_lp-hingin-SNAPSHOT-sources.jar",
+          "url": "canvas2_lp-hingin-SNAPSHOT-sources.jar",
+          "size": 842047,
+          "sha512": "b3ae62bab131c0620816a7b7a928259cecc7bc98e4d1fd3b3da4f034e3db6621d0ae5ea9df6c185384dffb7861f36ad8f5694a806ae4ec75b3a2502d77cad8bb",
+          "sha256": "da98fd03a0683f4b73ae1bc400c961a7b11d765c3767586d74d4ca2a0ff10d01",
+          "sha1": "d59cb0e65906572ceb3ffb7fe40b0d12cd7b39ba",
+          "md5": "4655ef57b2e38f61b06a99ad89594d33"
+        }
+      ]
+    }
+  ]
+}

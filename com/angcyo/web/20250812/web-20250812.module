@@ -1,0 +1,138 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.angcyo",
+    "module": "web",
+    "version": "20250812",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.9"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.webkit",
+          "module": "webkit",
+          "version": {
+            "requires": "1.7.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.25"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "web-20250812.aar",
+          "url": "web-20250812.aar",
+          "size": 198081,
+          "sha512": "27b791aab38980f114e4a7d7c7add56dfa708d011f5c6db291b184fc4c1469d224788d492cb071beeaededc7107dfcec36d911b853e9aece0c4aeea8a1a093e7",
+          "sha256": "ae604cde4e6291a7838c41237a45a1d46ddcc3f1e85093a1561ac1fb2cdf8f2c",
+          "sha1": "bd07797deafe6b5824f29fc9b1c59321034dbaab",
+          "md5": "1179201eba3d718d2bbafd24b21dacc8"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.angcyo",
+          "module": "library",
+          "version": {
+            "requires": "20250812"
+          }
+        },
+        {
+          "group": "com.angcyo",
+          "module": "core",
+          "version": {
+            "requires": "20250812"
+          }
+        },
+        {
+          "group": "com.angcyo",
+          "module": "download",
+          "version": {
+            "requires": "20250812"
+          }
+        },
+        {
+          "group": "com.angcyo",
+          "module": "picker",
+          "version": {
+            "requires": "20250812"
+          }
+        },
+        {
+          "group": "androidx.webkit",
+          "module": "webkit",
+          "version": {
+            "requires": "1.7.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.25"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "web-20250812.aar",
+          "url": "web-20250812.aar",
+          "size": 198081,
+          "sha512": "27b791aab38980f114e4a7d7c7add56dfa708d011f5c6db291b184fc4c1469d224788d492cb071beeaededc7107dfcec36d911b853e9aece0c4aeea8a1a093e7",
+          "sha256": "ae604cde4e6291a7838c41237a45a1d46ddcc3f1e85093a1561ac1fb2cdf8f2c",
+          "sha1": "bd07797deafe6b5824f29fc9b1c59321034dbaab",
+          "md5": "1179201eba3d718d2bbafd24b21dacc8"
+        }
+      ]
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "web-20250812-sources.jar",
+          "url": "web-20250812-sources.jar",
+          "size": 53823,
+          "sha512": "7c7a136f4ee866881eb2f6308e81d5ab8da6a6f39bae39e1756405a21fd2ab6d248a673e8259f0b0ed59decbe070997d8dde0fdb4f63707401ce0985fc2514a2",
+          "sha256": "b4963ab3075d87d5fcc0db7bc93f746f161b6c0efefc546ccb98cb2f550e8cbf",
+          "sha1": "53a58ec68002bbea5c15848f152be273a29829ae",
+          "md5": "d9d61cf836fca0ea3a38874867d7bbc0"
+        }
+      ]
+    }
+  ]
+}

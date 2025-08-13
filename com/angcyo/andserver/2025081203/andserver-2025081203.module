@@ -1,0 +1,152 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.angcyo",
+    "module": "andserver",
+    "version": "2025081203",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.9"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.yanzhenjie.andserver",
+          "module": "api",
+          "version": {
+            "requires": "2.1.12"
+          }
+        },
+        {
+          "group": "javax.activation",
+          "module": "javax.activation-api",
+          "version": {
+            "requires": "1.2.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.25"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "andserver-2025081203.aar",
+          "url": "andserver-2025081203.aar",
+          "size": 115859,
+          "sha512": "513b9302d355f89e50a8acafb7dc458607e8dbad2a004a8c77db8552d98c0c757574e33578c42686b4c978fd0103b45b9f174bc8de50d3a097095859643c68a5",
+          "sha256": "b659648ed0a67bc0f63c1630f4406ec17c02487a37a36cde3228cbf12acd8be0",
+          "sha1": "7fc6d7f7b246dd6581ffd203fb4f0b29d4e09d82",
+          "md5": "ac1c32d6d4a48b34d2fe4772dea11763"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.angcyo",
+          "module": "library",
+          "version": {
+            "requires": "2025081203"
+          }
+        },
+        {
+          "group": "com.angcyo",
+          "module": "http",
+          "version": {
+            "requires": "2025081203"
+          }
+        },
+        {
+          "group": "com.angcyo",
+          "module": "fragment",
+          "version": {
+            "requires": "2025081203"
+          }
+        },
+        {
+          "group": "com.angcyo",
+          "module": "core",
+          "version": {
+            "requires": "2025081203"
+          }
+        },
+        {
+          "group": "com.yanzhenjie.andserver",
+          "module": "api",
+          "version": {
+            "requires": "2.1.12"
+          }
+        },
+        {
+          "group": "javax.activation",
+          "module": "javax.activation-api",
+          "version": {
+            "requires": "1.2.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.25"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "andserver-2025081203.aar",
+          "url": "andserver-2025081203.aar",
+          "size": 115859,
+          "sha512": "513b9302d355f89e50a8acafb7dc458607e8dbad2a004a8c77db8552d98c0c757574e33578c42686b4c978fd0103b45b9f174bc8de50d3a097095859643c68a5",
+          "sha256": "b659648ed0a67bc0f63c1630f4406ec17c02487a37a36cde3228cbf12acd8be0",
+          "sha1": "7fc6d7f7b246dd6581ffd203fb4f0b29d4e09d82",
+          "md5": "ac1c32d6d4a48b34d2fe4772dea11763"
+        }
+      ]
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "andserver-2025081203-sources.jar",
+          "url": "andserver-2025081203-sources.jar",
+          "size": 33957,
+          "sha512": "6fde9d82340e6c9c8011d226e2e914bc527ece71c9e182fa35069e87b625f779ed5e11742e13c0ec75abdc2fd0ef34ed08888962754945f0393f154aab4afd36",
+          "sha256": "98d83831117f631d05de71bfd6a00565dcf4b36a275d2a73337f17f8c126b09c",
+          "sha1": "e89efd7b400084f179936c3b7dbb4ecc755cd346",
+          "md5": "56c8ba59ed8ace51f0ac93fd1d439e14"
+        }
+      ]
+    }
+  ]
+}

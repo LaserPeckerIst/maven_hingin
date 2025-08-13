@@ -1,0 +1,110 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.angcyo",
+    "module": "objectbox",
+    "version": "2025081203",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.9"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "io.objectbox",
+          "module": "objectbox-kotlin",
+          "version": {
+            "requires": "3.7.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.25"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "objectbox-2025081203.aar",
+          "url": "objectbox-2025081203.aar",
+          "size": 56724,
+          "sha512": "b0d68b70f833d26879e4330e55c9694d0c16cce8d38c03836afd82172fe03c1f281a1cb09cc5bb819d89affe4fb050d91784884de11b44ae7496958196c2a0d0",
+          "sha256": "4391dad64e6124e461c33b293b00d34c760df0022ae4e2c1e99b1d72c2a8edae",
+          "sha1": "af034b7ffe21e2acdf2e388e11d97b33c7969da4",
+          "md5": "08db291ca4388ccc7fc8af37ffb0a6c7"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "io.objectbox",
+          "module": "objectbox-kotlin",
+          "version": {
+            "requires": "3.7.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.25"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "objectbox-2025081203.aar",
+          "url": "objectbox-2025081203.aar",
+          "size": 56724,
+          "sha512": "b0d68b70f833d26879e4330e55c9694d0c16cce8d38c03836afd82172fe03c1f281a1cb09cc5bb819d89affe4fb050d91784884de11b44ae7496958196c2a0d0",
+          "sha256": "4391dad64e6124e461c33b293b00d34c760df0022ae4e2c1e99b1d72c2a8edae",
+          "sha1": "af034b7ffe21e2acdf2e388e11d97b33c7969da4",
+          "md5": "08db291ca4388ccc7fc8af37ffb0a6c7"
+        }
+      ]
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "objectbox-2025081203-sources.jar",
+          "url": "objectbox-2025081203-sources.jar",
+          "size": 14005,
+          "sha512": "1053d849ddc998e9f75fc3e64b1871d93ca4fbbb39364d6b178fa4d2dc8699e4705710f8979a5df7c27bb470297bd84d16d6dbdea577079ec91f250cf4a51bfd",
+          "sha256": "4694ccce37610bad19868be095cdd4bd718194e362fe54d6bf5c9347e82c55f2",
+          "sha1": "578b8a4299ab865a1dc9a502fb5d8786e23f706f",
+          "md5": "9000aeee8786cc8acd3a179e2b8c112c"
+        }
+      ]
+    }
+  ]
+}

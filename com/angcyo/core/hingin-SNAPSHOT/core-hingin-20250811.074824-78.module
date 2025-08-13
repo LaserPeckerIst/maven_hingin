@@ -1,0 +1,199 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.angcyo",
+    "module": "core",
+    "version": "hingin-SNAPSHOT",
+    "attributes": {
+      "org.gradle.status": "integration"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.9"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.angcyo",
+          "module": "fragment",
+          "version": {
+            "requires": "hingin-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.angcyo",
+          "module": "coroutine",
+          "version": {
+            "requires": "hingin-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.angcyo",
+          "module": "http",
+          "version": {
+            "requires": "hingin-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.angcyo",
+          "module": "dialog",
+          "version": {
+            "requires": "hingin-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.angcyo",
+          "module": "viewmodel",
+          "version": {
+            "requires": "hingin-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.github.angcyo",
+          "module": "settingscompat",
+          "version": {
+            "requires": "1.1.4.1"
+          },
+          "excludes": [
+            {
+              "group": "androidx.appcompat",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.25"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-hingin-SNAPSHOT.aar",
+          "url": "core-hingin-SNAPSHOT.aar",
+          "size": 1135550,
+          "sha512": "411e5cc93f00564bbecc9cb3dbdd270f43eb0b8fcd2dc0abe6095c2753457e76ad3177502d6757636c93320543f9726d26c8a37d722ac5e430341e84bd270b07",
+          "sha256": "12ac908035f739d0f9b96fb97f2807d9fbc6e6702eb0cb2c06fccdf10c67fee2",
+          "sha1": "9ffe70353e4a911d452ea3b741148c4d4b65483b",
+          "md5": "286109bcf59e3125fdab584771b7cd6f"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.lsposed.hiddenapibypass",
+          "module": "hiddenapibypass",
+          "version": {
+            "requires": "4.3"
+          }
+        },
+        {
+          "group": "com.angcyo",
+          "module": "fragment",
+          "version": {
+            "requires": "hingin-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.angcyo",
+          "module": "coroutine",
+          "version": {
+            "requires": "hingin-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.angcyo",
+          "module": "http",
+          "version": {
+            "requires": "hingin-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.angcyo",
+          "module": "dialog",
+          "version": {
+            "requires": "hingin-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.angcyo",
+          "module": "viewmodel",
+          "version": {
+            "requires": "hingin-SNAPSHOT"
+          }
+        },
+        {
+          "group": "com.github.angcyo",
+          "module": "settingscompat",
+          "version": {
+            "requires": "1.1.4.1"
+          },
+          "excludes": [
+            {
+              "group": "androidx.appcompat",
+              "module": "*"
+            }
+          ]
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.25"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "core-hingin-SNAPSHOT.aar",
+          "url": "core-hingin-SNAPSHOT.aar",
+          "size": 1135550,
+          "sha512": "411e5cc93f00564bbecc9cb3dbdd270f43eb0b8fcd2dc0abe6095c2753457e76ad3177502d6757636c93320543f9726d26c8a37d722ac5e430341e84bd270b07",
+          "sha256": "12ac908035f739d0f9b96fb97f2807d9fbc6e6702eb0cb2c06fccdf10c67fee2",
+          "sha1": "9ffe70353e4a911d452ea3b741148c4d4b65483b",
+          "md5": "286109bcf59e3125fdab584771b7cd6f"
+        }
+      ]
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "core-hingin-SNAPSHOT-sources.jar",
+          "url": "core-hingin-SNAPSHOT-sources.jar",
+          "size": 264635,
+          "sha512": "2c1af2c845f90131a3450d710d9c2f0d75f6e151e1f2404781a17fa21e4fd8311252f8d6a78d515b249f5f59cb9f41938e86c7736c8f4e7734b7dee484ce9514",
+          "sha256": "53c9f239adf45e8abbdef2e5572194b3659a02b6097ddf1810c3a5fad9327a71",
+          "sha1": "131335c3c003409e54699b79eeca1a5d5f25880b",
+          "md5": "a9c4f3ba8b9bf933b91001cff6cb43ee"
+        }
+      ]
+    }
+  ]
+}

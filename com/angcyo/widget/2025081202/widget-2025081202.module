@@ -1,0 +1,236 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.angcyo",
+    "module": "widget",
+    "version": "2025081202",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.9"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.angcyo",
+          "module": "library",
+          "version": {
+            "requires": "2025081202"
+          }
+        },
+        {
+          "group": "com.angcyo",
+          "module": "drawable",
+          "version": {
+            "requires": "2025081202"
+          }
+        },
+        {
+          "group": "androidx.fragment",
+          "module": "fragment-ktx",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "androidx.activity",
+          "module": "activity-ktx",
+          "version": {
+            "requires": "1.7.2"
+          }
+        },
+        {
+          "group": "androidx.cardview",
+          "module": "cardview",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "androidx.recyclerview",
+          "module": "recyclerview",
+          "version": {
+            "requires": "1.3.1"
+          }
+        },
+        {
+          "group": "androidx.constraintlayout",
+          "module": "constraintlayout",
+          "version": {
+            "requires": "2.1.4"
+          }
+        },
+        {
+          "group": "androidx.coordinatorlayout",
+          "module": "coordinatorlayout",
+          "version": {
+            "requires": "1.2.0"
+          }
+        },
+        {
+          "group": "androidx.viewpager2",
+          "module": "viewpager2",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "com.github.LaserPeckerIst",
+          "module": "AnimatedSvgView",
+          "version": {
+            "requires": "1.0.6.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.25"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "widget-2025081202.aar",
+          "url": "widget-2025081202.aar",
+          "size": 2029341,
+          "sha512": "123665e3002838f0fe74964da4f6357477ad47d8a5871e7d018a1ea3acf009716e3e5061914ffee6900cd4ba13a1282b5f822e6aa9b21257d9f85807fe9d83c3",
+          "sha256": "21fa05ac87da785d8d6c74b0fdec04571e8ca077781975c9c187f14b4d5228f2",
+          "sha1": "f82dbda90f3ba9be1f7559f0a095cdadb31489b0",
+          "md5": "46f925a6c4a5f6327e94b178831168a9"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.angcyo",
+          "module": "library",
+          "version": {
+            "requires": "2025081202"
+          }
+        },
+        {
+          "group": "com.angcyo",
+          "module": "drawable",
+          "version": {
+            "requires": "2025081202"
+          }
+        },
+        {
+          "group": "androidx.fragment",
+          "module": "fragment-ktx",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "androidx.activity",
+          "module": "activity-ktx",
+          "version": {
+            "requires": "1.7.2"
+          }
+        },
+        {
+          "group": "androidx.cardview",
+          "module": "cardview",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "androidx.recyclerview",
+          "module": "recyclerview",
+          "version": {
+            "requires": "1.3.1"
+          }
+        },
+        {
+          "group": "androidx.constraintlayout",
+          "module": "constraintlayout",
+          "version": {
+            "requires": "2.1.4"
+          }
+        },
+        {
+          "group": "androidx.coordinatorlayout",
+          "module": "coordinatorlayout",
+          "version": {
+            "requires": "1.2.0"
+          }
+        },
+        {
+          "group": "androidx.viewpager2",
+          "module": "viewpager2",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "com.github.LaserPeckerIst",
+          "module": "AnimatedSvgView",
+          "version": {
+            "requires": "1.0.6.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.25"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "widget-2025081202.aar",
+          "url": "widget-2025081202.aar",
+          "size": 2029341,
+          "sha512": "123665e3002838f0fe74964da4f6357477ad47d8a5871e7d018a1ea3acf009716e3e5061914ffee6900cd4ba13a1282b5f822e6aa9b21257d9f85807fe9d83c3",
+          "sha256": "21fa05ac87da785d8d6c74b0fdec04571e8ca077781975c9c187f14b4d5228f2",
+          "sha1": "f82dbda90f3ba9be1f7559f0a095cdadb31489b0",
+          "md5": "46f925a6c4a5f6327e94b178831168a9"
+        }
+      ]
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "widget-2025081202-sources.jar",
+          "url": "widget-2025081202-sources.jar",
+          "size": 1060799,
+          "sha512": "4ef73be1b8ba729ec9d51f442cd8e28bd94ab9912a2e3ce3bf6067e6d30f38733a1783e282125edab2ac41e03776c9b0aedefb69b0a0740e3eceb0fda35a65bb",
+          "sha256": "81a2d4467203599232bce3c7c0e843e4140412678f2708267d7de2e77031ce20",
+          "sha1": "b02281155699e3f4aa56119b73e4ddfe9088dbae",
+          "md5": "054c533ab92ab60615cd22141480c251"
+        }
+      ]
+    }
+  ]
+}

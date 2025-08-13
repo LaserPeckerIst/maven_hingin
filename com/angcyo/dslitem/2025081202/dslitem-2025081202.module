@@ -1,0 +1,138 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.angcyo",
+    "module": "dslitem",
+    "version": "2025081202",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.9"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.angcyo",
+          "module": "dialog",
+          "version": {
+            "requires": "2025081202"
+          }
+        },
+        {
+          "group": "com.angcyo",
+          "module": "core",
+          "version": {
+            "requires": "2025081202"
+          }
+        },
+        {
+          "group": "com.angcyo",
+          "module": "widget",
+          "version": {
+            "requires": "2025081202"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.25"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "dslitem-2025081202.aar",
+          "url": "dslitem-2025081202.aar",
+          "size": 708050,
+          "sha512": "c2ff4b109744d3f1449caee7614c270ab84aa9baa5ddfd761fbee46fee0c3f1a2abc986b0f2a3910921f556f2a119e8ec5ea6a7dbdfcc9c2d5e1c44741d80a8b",
+          "sha256": "08d6083e3b069334745279fa15c984fcd59104930c91f83155d55d1310a685d5",
+          "sha1": "aeb6a754f9d1889b406f80cc0d94c16da1759dd8",
+          "md5": "e9c51b89fe02ea31d1af9c426b21bd24"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.angcyo",
+          "module": "dialog",
+          "version": {
+            "requires": "2025081202"
+          }
+        },
+        {
+          "group": "com.angcyo",
+          "module": "core",
+          "version": {
+            "requires": "2025081202"
+          }
+        },
+        {
+          "group": "com.angcyo",
+          "module": "widget",
+          "version": {
+            "requires": "2025081202"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.25"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "dslitem-2025081202.aar",
+          "url": "dslitem-2025081202.aar",
+          "size": 708050,
+          "sha512": "c2ff4b109744d3f1449caee7614c270ab84aa9baa5ddfd761fbee46fee0c3f1a2abc986b0f2a3910921f556f2a119e8ec5ea6a7dbdfcc9c2d5e1c44741d80a8b",
+          "sha256": "08d6083e3b069334745279fa15c984fcd59104930c91f83155d55d1310a685d5",
+          "sha1": "aeb6a754f9d1889b406f80cc0d94c16da1759dd8",
+          "md5": "e9c51b89fe02ea31d1af9c426b21bd24"
+        }
+      ]
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "dslitem-2025081202-sources.jar",
+          "url": "dslitem-2025081202-sources.jar",
+          "size": 218325,
+          "sha512": "e1c85686ddb6f051c71cbe2c5a1280fe72bb888351e181d3080206570907d64ee81a213ea1f293ec822332f42a060d9dc9c3e9c8e2d7aa0c95713cdacb85f52d",
+          "sha256": "21b8af0c974ca5d2eb2bf296bae38d30a83d61e0b8332155bf18555e352b67fe",
+          "sha1": "20efe966e02b596f67d2365c10f1f235d64a8b5f",
+          "md5": "5aac956a07379929ab88c908bdfd29b0"
+        }
+      ]
+    }
+  ]
+}

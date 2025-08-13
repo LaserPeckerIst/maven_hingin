@@ -1,0 +1,159 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.angcyo",
+    "module": "coroutine",
+    "version": "2025081202",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.9"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.6.4"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-android",
+          "version": {
+            "requires": "1.6.4"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-common",
+          "version": {
+            "requires": "2.6.1"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-runtime-ktx",
+          "version": {
+            "requires": "2.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.25"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "coroutine-2025081202.aar",
+          "url": "coroutine-2025081202.aar",
+          "size": 41269,
+          "sha512": "2e4f3ed835e7ae8849c47ecff166f243155ca895c74c609f59d7df018b78987e8d6e1a740be91a87e9066863f20c678d2ffbf53ea4ed5e08158ce3e63027e4cc",
+          "sha256": "2d4c8b6c4cec1b287d365a8157d066374a40b990b6cb5280512c41ef68e6c7f4",
+          "sha1": "ce7c0fe131658438626f9bdc7e829d17bce21730",
+          "md5": "e24cc1cecec32c2761b1841795007bce"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "com.angcyo",
+          "module": "library",
+          "version": {
+            "requires": "2025081202"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.6.4"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-android",
+          "version": {
+            "requires": "1.6.4"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-common",
+          "version": {
+            "requires": "2.6.1"
+          }
+        },
+        {
+          "group": "androidx.lifecycle",
+          "module": "lifecycle-runtime-ktx",
+          "version": {
+            "requires": "2.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.25"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "coroutine-2025081202.aar",
+          "url": "coroutine-2025081202.aar",
+          "size": 41269,
+          "sha512": "2e4f3ed835e7ae8849c47ecff166f243155ca895c74c609f59d7df018b78987e8d6e1a740be91a87e9066863f20c678d2ffbf53ea4ed5e08158ce3e63027e4cc",
+          "sha256": "2d4c8b6c4cec1b287d365a8157d066374a40b990b6cb5280512c41ef68e6c7f4",
+          "sha1": "ce7c0fe131658438626f9bdc7e829d17bce21730",
+          "md5": "e24cc1cecec32c2761b1841795007bce"
+        }
+      ]
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "coroutine-2025081202-sources.jar",
+          "url": "coroutine-2025081202-sources.jar",
+          "size": 8205,
+          "sha512": "c102719b1a731682b32cc08f938c37e2a8f9682806190afb5b42e92aaa87479b0ed2c1892f37eb12fa9c8cfb6fc6f6e10e12f819d4a7d1f868ab3de486be3790",
+          "sha256": "d1ab8db3c19e573913fcf7f50f165dd92da8b38db444361af9bc16cf0a6b4476",
+          "sha1": "a539fb4ac2e08ba51c221191033ff26618f441b7",
+          "md5": "2dc2cb525a231a687b061c0c0e22111f"
+        }
+      ]
+    }
+  ]
+}
